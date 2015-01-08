@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textodepuracion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crearnuevolocalizador"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textomarcamodelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Fabricante"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/spinnermarca"
+                android:layout_width="268dp"
+                android:layout_height="53dp" />
+
+            <TextView
+                android:id="@+id/textViewlocalizador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margenpordefecto"
+                android:text="@string/Modelo"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Spinner
+                        android:id="@+id/spinnermodelonuevo"
+                        android:layout_width="150dp"
+                        android:layout_height="54dp" />
+
+                    <ImageView
+                        android:id="@+id/imagenmodelonuevo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="90dp"
+                        android:minWidth="90dp"
+                        android:src="@drawable/ic_launcher" />
+
+                    <ImageButton
+                        android:id="@+id/botonatrasnuevo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"
+                        android:src="@drawable/ic_atras" />
+
+                </LinearLayout>
+                
+            </LinearLayout>
+
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:layout_marginTop="@dimen/margenpordefecto"
+                    android:text="@string/num_telefono"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/editTextNumLocalizadornuevo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:layout_marginTop="@dimen/margenpordefecto"
+                    android:ems="10"
+                    android:enabled="true"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textViewNombreLocalizador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginTop="@dimen/margenpordefecto"
+                    android:text="@string/nombrelocalizador"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/editTextnombrelocalizador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenamplio"
+                    android:layout_marginTop="@dimen/margenpordefecto"
+                    android:ems="10" />
+
+            </LinearLayout>
+            
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginLeft="@dimen/margenpordefecto"
+                                  android:layout_marginRight="@dimen/margenpordefecto"
+                                  android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textViewclavenuevo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:text="@string/clave"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/editTextClaveNuevo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:ems="10"
+                        android:enabled="true"
+                        android:inputType="number" />
+                </LinearLayout>
+            
+           <Button
+               android:id="@+id/botonguardarnuevo"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/scrollView1"
+               android:layout_margin="@dimen/margenpordefecto"
+               android:text="@string/guardar" />
+            
+        </LinearLayout>
+
+    </ScrollView>
+
+  <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_marginLeft="@dimen/margenpordefecto"
+        android:layout_marginRight="@dimen/margenpordefecto"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <requestFocus />
+    </LinearLayout>
+ 
+</RelativeLayout>

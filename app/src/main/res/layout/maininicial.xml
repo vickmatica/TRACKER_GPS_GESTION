@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:launchMode="singleTask"
+    android:orientation="vertical" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapa"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:apiKey="0EmIfPq3dkspGoeHs8egiUvnHRwbqxQpRsz1MoQ"
+        android:clickable="true" >
+    </com.google.android.maps.MapView>
+
+    <ZoomControls
+        android:id="@+id/zoomcontrols"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margenpordefecto"
+        android:soundEffectsEnabled="true" />
+
+    <TextView
+        android:id="@+id/textodepuracion"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/zoomcontrols"
+        android:text="@string/saldoactual"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/botonmenu"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/zoomcontrols"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Menu" />
+
+    <ImageView
+        android:id="@+id/imagenvistasatelite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/zoomcontrols"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/margenpordefecto"
+        android:src="@drawable/ic_ojo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imagenvistasatelite"
+        android:layout_alignTop="@+id/textodepuracion"
+        android:layout_marginTop="37dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal" >
+
+    <com.vicherarr.localizadorgsm.MiGLView
+        android:id="@+id/micubo"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+               android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margenpordefecto" />
+
+    </RelativeLayout>
+</RelativeLayout>

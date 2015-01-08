@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margenpordefecto"
+        android:layout_marginRight="@dimen/margenpordefecto"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margenpordefecto"
+            android:layout_marginRight="@dimen/margenpordefecto"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewlocalizador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margenpordefecto"
+                android:layout_marginRight="@dimen/margenpordefecto"
+                android:text="@string/seleccionarlocalizador"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="@dimen/margenpordefecto"
+                 android:layout_marginRight="@dimen/margenpordefecto"
+                 android:orientation="horizontal" >
+
+                        <ImageView
+                    android:id="@+id/imagenmodelonuevo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:minHeight="90dp"
+                    android:minWidth="90dp"
+                    android:src="@drawable/ic_launcher" />
+
+                        <TextView
+                            android:id="@+id/textomarcamodelo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <TextView
+                            android:id="@+id/textViewmarcamodelo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                 
+            <ImageButton
+                android:id="@+id/botonatras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/margenpordefecto"
+                android:layout_marginRight="@dimen/margenpordefecto"
+                android:src="@drawable/ic_atras"
+                android:visibility="invisible" />
+
+            </LinearLayout>
+         
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margenpordefecto"
+                android:layout_marginRight="@dimen/margenpordefecto"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinnermodelonuevo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:layout_weight="0.09" />
+
+                <ImageView
+                    android:id="@+id/botonnuevo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:background="@drawable/ic_agregar"
+                    android:text="@string/Nuevo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margenpordefecto"
+                android:layout_marginRight="@dimen/margenpordefecto"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textViewNumTelLocalizador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:text="@string/num_telefono"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/editTextNumLocalizador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:inputType="phone" />
+            </LinearLayout>
+            
+                      
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margenpordefecto"
+                android:layout_marginRight="@dimen/margenpordefecto"
+                android:background="@drawable/miborde"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/botonguardarclave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margenpordefecto"
+                        android:text="@string/editar" />
+
+                    <Button
+                        android:id="@+id/botoncancelar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margenpordefecto"
+                        android:text="@string/Cancelar" />
+
+                    <Button
+                        android:id="@+id/botonborrar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margenpordefecto"
+                        android:text="@string/eliminar" />
+                </LinearLayout>
+                
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textodepuracion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:text="@string/clave"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <EditText
+                        android:id="@+id/editTextClaveLocalizadorMultiple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:inputType="number" />
+                </LinearLayout>
+                
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:layout_marginTop="@dimen/margenpordefecto"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:text="@string/saldo_localizador"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                        android:id="@+id/editTextsaldoporlocalizador"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:layout_marginTop="@dimen/margenpordefecto"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:text="@string/preciosmslocalizador"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <EditText
+                        android:id="@+id/editTextpvpxsmsloc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textViewtitulofecharecarga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:text="@string/fecharecarga"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fecharecarga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botoncambiarfecha"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:text="@string/cambiarfecha" />
+
+                    <Button
+                        android:id="@+id/configuraravisos"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margenpordefecto"
+                        android:layout_marginRight="@dimen/margenpordefecto"
+                        android:text="@string/configuraravisos" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/smsrestantes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margenpordefecto"
+                    android:layout_marginRight="@dimen/margenpordefecto"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_marginLeft="@dimen/margenpordefecto"
+        android:layout_marginRight="@dimen/margenpordefecto"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <requestFocus />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margenamplio" >
+
+<TextView
+    android:id="@+id/textodepuracion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/cambiaridioma"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_alignParentLeft="true" 
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                 android:layout_width="match_parent"
+    			android:layout_height="match_parent" 
+          >
+
+            <RadioButton
+                android:id="@+id/radiospanish"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="@dimen/margenpordefecto"
+                android:checked="true"
+                android:text="@string/espanol" />
+            
+                     <ImageView
+                    android:id="@+id/imagenespanol"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_spanish" />
+            
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioenglish"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margenpordefecto"
+                android:text="@string/ingles" />
+
+            <ImageView
+                android:id="@+id/imageningles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_unitedkingdom" />
+                
+            </TableRow>
+
+            <TableRow>
+   
+			</TableRow>
+
+            <Button
+                android:id="@+id/botonguardaridioma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margenamplio"
+                android:text="@string/guardar" />
+
+         </TableLayout>
+
+  
+
+    </RadioGroup>
+
+   
+
+</RelativeLayout>

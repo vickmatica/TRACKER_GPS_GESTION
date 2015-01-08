@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:launchMode="singleTask"
+    android:orientation="vertical" >
+     
+    
+    
+    <fragment
+        android:id="@+id/mapa"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:clickable="true" />
+          
+    
+    <TextView
+        android:id="@+id/textViewPruebas"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/locseleccionado"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/seleccionarlocalizador"
+        />
+
+    <ImageView
+        android:id="@+id/posterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/locseleccionado"
+        android:layout_toRightOf="@+id/locseleccionado"
+        android:src="@drawable/ic_posterior" 
+        android:contentDescription="@string/seleccionarlocalizador"
+        />
+
+    <ImageView
+        android:id="@+id/anterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/locseleccionado"
+        android:layout_toLeftOf="@+id/locseleccionado"
+        android:src="@drawable/ic_anterior" 
+        android:contentDescription="@string/seleccionarlocalizador"
+        />
+
+    <TextView
+        android:id="@+id/textolocalizador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/image3d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imagenvistasatelite"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/margenpordefecto"
+        android:src="@drawable/ic_up" 
+        android:contentDescription="@string/vacio"
+        />
+
+    <ImageView
+        android:id="@+id/imagenvistasatelite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageViewAgregar"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/margenpordefecto"
+        android:layout_marginBottom="17dp"
+        android:src="@drawable/ic_ojo" 
+        android:contentDescription="@string/vacio"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/margenpordefecto"
+        android:src="@drawable/ic_agregar" 
+        android:contentDescription="@string/Nuevo"
+        />
+
+    <TextView
+        android:id="@+id/textodepuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/botonmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/margenpordefecto"
+        android:text="@string/Menu" />
+
+    <Spinner
+        android:id="@+id/spinnerDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/botonmenu"
+        android:layout_alignRight="@+id/posterior"
+        android:layout_alignTop="@+id/botonmenu"
+        android:layout_toRightOf="@+id/botonmenu" />
+
+    <ImageView
+        android:id="@+id/imagenupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinnerDevices"
+        android:layout_toRightOf="@+id/spinnerDevices"
+        android:src="@drawable/ic_update" />
+
+    <ImageView
+        android:id="@+id/imagenruta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/botonmenu"
+        android:layout_below="@+id/botonmenu"
+        android:src="@drawable/ic_ruta" />
+     
+</RelativeLayout>
