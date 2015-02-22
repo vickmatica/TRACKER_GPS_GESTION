@@ -82,7 +82,7 @@ import com.google.android.gms.maps.model.PolygonOptions;
 
 
 public class Main extends FragmentActivity {
-	
+
 
 		
 	public static int INICIOLATTK110=35;
@@ -1556,7 +1556,7 @@ public class Main extends FragmentActivity {
 					
 					
 				
-					
+
 					
 					OnDateSetListener dateSetListener=new OnDateSetListener(){
 
@@ -1572,19 +1572,19 @@ public class Main extends FragmentActivity {
 							//mitimerwebservice.cancel();
 							
 							
-							String body="<GTSRequest command=\"mapdata\">\r\n" + 
+							String body="<GTSRequest command=\"mapdata\">\r\n" +
 									" <Authorization account=\""+ preferencias.getString(Main.KEY_USERINTERNET, "")
-							   		+ "\" user=\"admin\" password=\"orion\"/>\r\n" + 
-									" <MapData>\r\n" + 
-									" <Device>"+ device +"</Device>\r\n" + 
-									" <TimeFrom timezone=\"GMT+1\">"+anio+"/"+(mes+1)+"/"+dia+",00:00:01</TimeFrom>\r\n" + 
-									" <TimeTo timezone=\""+Utiles.getGMT()+"\">"+anio+"/"+(mes+1)+"/" +dia+",23:59:59</TimeTo>\r\n" + 
-									" <Limit type=\"last\">200</Limit>\r\n" + 
-									" </MapData>\r\n" + 
+							   		+ "\" user=\"admin\" password=\"orion\"/>\r\n" +
+									" <MapData>\r\n" +
+									" <Device>"+ device +"</Device>\r\n" +
+									" <TimeFrom timezone=\"GMT+1\">"+anio+"/"+(mes+1)+"/"+dia+",00:00:01</TimeFrom>\r\n" +
+									" <TimeTo timezone=\""+Utiles.getGMT()+"\">"+anio+"/"+(mes+1)+"/" +dia+",23:59:59</TimeTo>\r\n" +
+									" <Limit type=\"last\">200</Limit>\r\n" +
+									" </MapData>\r\n" +
 									"</GTSRequest>";
 							new HttpPostRuta(contexto).execute(body);
 						    }
-							
+
 						}};
 						
 						if (spinnerDevices.getCount()>0)

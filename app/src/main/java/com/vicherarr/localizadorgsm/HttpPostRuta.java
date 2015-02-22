@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.xmlpull.v1.XmlPullParserException;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
@@ -13,9 +14,10 @@ public class HttpPostRuta extends AsyncTask<String, Void, String>
 {       
   public Context contexto;
 private ProgressDialog pd1;
-  
-  
-  public HttpPostRuta(Context context)
+    AlertDialog alertdialog;
+
+
+    public HttpPostRuta(Context context)
   {
 	  contexto=context;
   }
@@ -76,7 +78,13 @@ private ProgressDialog pd1;
         
     	
     	try {
+
 			Main.listmarkeroptionsruta= new Utiles().getposxmlruta(contexto,xml);
+            if (Main.listmarkeroptionsruta.isEmpty()) {
+                if (alertdialog!=null) alertdialog.dismiss();
+                //alertdialog = (AlertDialog) new Dialogo().mostrar(contexto, "No hay ruta", "No existe ruta en la fecha seleccionada");
+                Toast.makeText(contexto,"No existe ruta en la fecha seleccionada",Toast.LENGTH_LONG).show();
+            }
 			Main.handle_dibujar_ruta.sendEmptyMessage(0);
 		} catch (XmlPullParserException e) {
 			// TODO Auto-generated catch block

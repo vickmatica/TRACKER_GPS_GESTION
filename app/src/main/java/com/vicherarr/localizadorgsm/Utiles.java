@@ -1669,7 +1669,102 @@ public static void alertacaducidad(Context contexto, String numerosmsbd){
  		container.startAnimation(scaleAnimation);
  	}
      
-     
+
+    public String getErrorXml(Context contexto, String xml) throws XmlPullParserException, IOException {
+     String codigoError="NO_ERROR";
+
+     /*
+     Códigos de error:
+     <Message code="OK0000"><![CDATA[Successful]]></Message>
+    <Message code="CM0010"><![CDATA[Command invalid]]></Message>
+    <Message code="CM0011"><![CDATA[Command not supported]]></Message>
+    <Message code="AU0010"><![CDATA[Authorization failed]]></Message>
+    <Message code="AC0020"><![CDATA[Account inactive]]></Message>
+    <Message code="AC0030"><![CDATA[Account expired]]></Message>
+    <Message code="AC0040"><![CDATA[
+    Account not authorized for host]]></Message>
+    <Message code="AC0042"><![CDATA[
+    Account not authorized for command]]></Message>
+    <Message code="US0020"><![CDATA[User inactive]]></Message>
+    <Message code="DV0010"><![CDATA[DeviceID invalid]]></Message>
+    <Message code="GR0010"><![CDATA[DeviceGroup ID invalid]]></Message>
+    <Message code="DT0010"><![CDATA[from/to date invalid]]></Message>
+    <Message code="PL0030"><![CDATA[Specified URL not allowed]]></Message>
+    <Message code="RQ0010"><![CDATA[Service Request disabled]]></Message>
+    <Message code="RQ0020"><![CDATA[Request XML requires 'POST']]></Message>
+    <Message code="RQ0030"><![CDATA[Request XML syntax errors]]></Message>
+    <Message code="RQ0031"><![CDATA[SOAP XML syntax error]]></Message>
+    <Message code="RQ0040"><![CDATA[Request XML is invalid]]></Message>
+    <Message code="RQ0050"><![CDATA[Request not supported]]></Message>
+    <Message code="DB0010"><![CDATA[Invalid table name]]></Message>
+    <Message code="DB0020"><![CDATA[Invalid DBRecordKey]]></Message>
+    <Message code="DB0030"><![CDATA[Invalid DBRecord]]></Message>
+     <Message code="DB0040"><![CDATA[Record not found]]></Message>
+     <Message code="DB0045"><![CDATA[Record already exists]]></Message>
+     <Message code="DB0050"><![CDATA[Record read failed]]></Message>
+     <Message code="DB0060"><![CDATA[Record update failed]]></Message>
+     <Message code="DB0065"><![CDATA[Record insert failed]]></Message>
+     <Message code="DB0070"><![CDATA[Record delete failed]]></Message>
+     <Message code="PR0010"><![CDATA[Invalid property key]]></Message>
+     <Message code="RP0010"><![CDATA[Report not found]]></Message>
+     <Message code="RP0030"><![CDATA[Report missing Device/Group]]></Message>
+     <Message code="RP0040"><![CDATA[Unable to create report]]></Message>
+     <Message code="RP0999"><![CDATA[Unexpected Reporting Error]]></Message>
+     <Message code="MP0010"><![CDATA[MapProvider not found]]></Message>
+
+     * */
+
+        String TAGINICIO = null,TAGFIN=null, TEXTO=null;
+
+        XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
+        factory.setNamespaceAware(true);
+        XmlPullParser xpp = factory.newPullParser();
+
+        xpp.setInput(new StringReader (xml));
+        int eventType = xpp.getEventType();
+
+
+        while (eventType != XmlPullParser.END_DOCUMENT) {
+
+            if(eventType == XmlPullParser.START_DOCUMENT) {
+                System.out.println("Start document");
+            } else if(eventType == XmlPullParser.END_DOCUMENT) {
+                System.out.println("End document");
+            } else if(eventType == XmlPullParser.START_TAG) {
+                TAGINICIO=xpp.getName();
+
+                if (xpp.getName().equals("Message")) codigoError=xpp.getAttributeValue(null,"code");
+
+
+            } else if(eventType == XmlPullParser.END_TAG) {
+                TAGFIN=xpp.getName();
+
+
+
+
+
+
+
+
+            } else if(eventType == XmlPullParser.TEXT) {
+                System.out.println("Text "+xpp.getText());
+                if (TAGINICIO.equalsIgnoreCase("P"))
+                {
+                    TEXTO=xpp.getText();
+                }
+
+            }
+            eventType = xpp.next();
+
+        }
+
+
+
+
+
+     return codigoError;
+    }
+
      public List<MarkerOptions> getposxml(Context contexto, String xml) throws XmlPullParserException, IOException{
       
     	 String test = "";
@@ -1784,6 +1879,7 @@ public static void alertacaducidad(Context contexto, String numerosmsbd){
                  {
                 	 TEXTO=xpp.getText();
                  }
+
              }
              eventType = xpp.next();
             

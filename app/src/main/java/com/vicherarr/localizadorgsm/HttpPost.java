@@ -55,6 +55,7 @@ public class HttpPost extends AsyncTask<String, Void, String>
 		        	//result=new UtilesWeb().gtsRequest(url, body[i]);
                     result=new UtilesWeb().gtsRequestSSL(urlSSL, targetDomain, body[i]);
 
+
         } catch(Exception e) {
             e.printStackTrace();
             
@@ -66,8 +67,18 @@ public class HttpPost extends AsyncTask<String, Void, String>
     {       
     	        
     	try {
-			Main.listmarkeroptionsinternet= new Utiles().getposxml(contexto,xml);
-			Main.handle_dibujar_servicioweb.sendEmptyMessage(0);
+
+
+            String codigoerror=new Utiles().getErrorXml(contexto,xml);
+
+            if (!codigoerror.equalsIgnoreCase("NO_ERROR")) {
+               if (codigoerror.equalsIgnoreCase("AU0010"))
+               new Dialogo().mostrar(contexto,"Acceso denegado","Acceso denegado a servicio localización por internet");
+
+
+            } else Main.listmarkeroptionsinternet= new Utiles().getposxml(contexto,xml);
+
+            Main.handle_dibujar_servicioweb.sendEmptyMessage(0);
 		} catch (Exception e){
 			e.printStackTrace();
 		}
