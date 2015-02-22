@@ -61,7 +61,8 @@ private ProgressDialog pd1;
         try {
         
 		        for (int i=0;i<body.length;i++) 
-		        	result=new UtilesWeb().gtsRequest(url, body[i]);
+		        	//result=new UtilesWeb().gtsRequest(url, body[i]);
+                   result=new UtilesWeb().gtsRequestSSL(HttpPost.urlSSL, HttpPost.targetDomain, body[i]);
         
         } catch(Exception e) {
             

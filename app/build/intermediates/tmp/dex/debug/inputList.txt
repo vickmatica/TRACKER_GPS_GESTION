@@ -1,6 +1,6 @@
-C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\classes\debug
-C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-24ca7e4d8a2ce84b24e77b3deb3ce50d7af3c29e.jar
-C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-aeed21b02758fe561abfefc5817dac01ca863623.jar
-C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\jsoup-1.7.2-e6a86e78d360060d55266cf4cd850bd383506fc3.jar
-C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\classes-c2759bae7c64a98786a0000be6a1c58ffec9d2ff.jar
-C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\classes-e9b603cb2f70fbb06bf5542369d6d0d8ae58d4ec.jar
+C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\classes\debug
+C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-24ca7e4d8a2ce84b24e77b3deb3ce50d7af3c29e.jar
+C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-59cb45b036a4e92876b27e5c2e4a2aedf29adfae.jar
+C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\jsoup-1.7.2-7022bce572bb5869881f4a53d347311b2627dbdf.jar
+C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-49059111beb727f3fd57eb9820be63b37fa2814e.jar
+C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-a7a9a53d1ed25d58e9b57c6fb7865d89bae1057a.jar

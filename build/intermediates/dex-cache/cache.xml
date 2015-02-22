@@ -9,6 +9,20 @@
         <dex dex="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\jsoup-1.7.2-e6a86e78d360060d55266cf4cd850bd383506fc3.jar" />
     </item>
     <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-59cb45b036a4e92876b27e5c2e4a2aedf29adfae.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-49059111beb727f3fd57eb9820be63b37fa2814e.jar" />
+    </item>
+    <item
         jar="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -16,11 +30,25 @@
         <dex dex="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-aeed21b02758fe561abfefc5817dac01ca863623.jar" />
     </item>
     <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-a7a9a53d1ed25d58e9b57c6fb7865d89bae1057a.jar" />
+    </item>
+    <item
         jar="C:\Users\Víctor\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
         <dex dex="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-24ca7e4d8a2ce84b24e77b3deb3ce50d7af3c29e.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\libs\jsoup-1.7.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="872693211fd68d1c4e116cf90021603207725e19">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\jsoup-1.7.2-7022bce572bb5869881f4a53d347311b2627dbdf.jar" />
     </item>
     <item
         jar="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"

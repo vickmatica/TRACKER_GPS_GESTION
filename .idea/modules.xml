@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TRACKER GPS GESTION.iml" filepath="$PROJECT_DIR$/TRACKER GPS GESTION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TRACKER_GPS_GESTION.iml" filepath="$PROJECT_DIR$/TRACKER_GPS_GESTION.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

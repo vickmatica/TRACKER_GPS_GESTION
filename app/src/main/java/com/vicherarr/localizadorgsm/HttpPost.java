@@ -11,7 +11,10 @@ import android.widget.Toast;
 public class HttpPost extends AsyncTask<String, Void, String> 
 {       
   public Context contexto;
-  
+
+   public static String url = "http://vps119481.ovh.net:8080/servicio/Service";
+   public static String urlSSL = "https://vps119481.ovh.net:8443/servicio/Service";
+   public static String targetDomain = "vps119481.ovh.net";
   
   public HttpPost(Context context)
   {
@@ -21,7 +24,7 @@ public class HttpPost extends AsyncTask<String, Void, String>
   @Override
     protected String doInBackground(String... body)   
     {           
-        String url = "http://vps119481.ovh.net:8080/servicio/Service";
+
         
         //url = "https://vps119481.ovh.net:8443/track1/Service";
         
@@ -49,8 +52,9 @@ public class HttpPost extends AsyncTask<String, Void, String>
         try {
         
 		        for (int i=0;i<body.length;i++) 
-		        	result=new UtilesWeb().gtsRequest(url, body[i]);
-        
+		        	//result=new UtilesWeb().gtsRequest(url, body[i]);
+                    result=new UtilesWeb().gtsRequestSSL(urlSSL, targetDomain, body[i]);
+
         } catch(Exception e) {
             e.printStackTrace();
             
