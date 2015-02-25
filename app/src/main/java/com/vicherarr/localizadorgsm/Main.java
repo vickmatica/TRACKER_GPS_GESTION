@@ -83,7 +83,7 @@ import com.google.android.gms.maps.model.PolygonOptions;
 
 public class Main extends FragmentActivity {
 
-
+    public static int aanio,ames,adia;
 		
 	public static int INICIOLATTK110=35;
 	public static int FINLATTK110=50;
@@ -1553,37 +1553,45 @@ public class Main extends FragmentActivity {
 				public void onClick(View view) {
 					
 					// new FechaHoraRangoDialog(contexto).show(); 
-					
-					
-				
+
+
+
 
 					
 					OnDateSetListener dateSetListener=new OnDateSetListener(){
 
-						public void onDateSet(DatePicker datepicker, int anio,
+                        public int vecesllamado=0;
+
+                        public void onDateSet(DatePicker datepicker, int anio,
 								int mes, int dia) {
-							
-							
-							String device;
-							if (spinnerDevices.getCount()>0)
-							{
-							device=spinnerDevices.getSelectedItem().toString();
-							
-							//mitimerwebservice.cancel();
-							
-							
-							String body="<GTSRequest command=\"mapdata\">\r\n" +
-									" <Authorization account=\""+ preferencias.getString(Main.KEY_USERINTERNET, "")
-							   		+ "\" user=\"admin\" password=\"orion\"/>\r\n" +
-									" <MapData>\r\n" +
-									" <Device>"+ device +"</Device>\r\n" +
-									" <TimeFrom timezone=\"GMT+1\">"+anio+"/"+(mes+1)+"/"+dia+",00:00:01</TimeFrom>\r\n" +
-									" <TimeTo timezone=\""+Utiles.getGMT()+"\">"+anio+"/"+(mes+1)+"/" +dia+",23:59:59</TimeTo>\r\n" +
-									" <Limit type=\"last\">200</Limit>\r\n" +
-									" </MapData>\r\n" +
-									"</GTSRequest>";
-							new HttpPostRuta(contexto).execute(body);
-						    }
+
+                            aanio=anio; ames=mes; adia=dia;
+
+							vecesllamado++;
+                            if ( (vecesllamado%2==0)) {
+                                    String device;
+
+
+
+                                        if (spinnerDevices.getCount()>0) {
+                                            device = spinnerDevices.getSelectedItem().toString();
+
+                                            //mitimerwebservice.cancel();
+
+
+                                            String body = "<GTSRequest command=\"mapdata\">\r\n" +
+                                                    " <Authorization account=\"" + preferencias.getString(Main.KEY_USERINTERNET, "")
+                                                    + "\" user=\"admin\" password=\"orion\"/>\r\n" +
+                                                    " <MapData>\r\n" +
+                                                    " <Device>" + device + "</Device>\r\n" +
+                                                    " <TimeFrom timezone=\"GMT+1\">" + anio + "/" + (mes + 1) + "/" + dia + ",00:00:01</TimeFrom>\r\n" +
+                                                    " <TimeTo timezone=\"" + Utiles.getGMT() + "\">" + anio + "/" + (mes + 1) + "/" + dia + ",23:59:59</TimeTo>\r\n" +
+                                                    " <Limit type=\"last\">200</Limit>\r\n" +
+                                                    " </MapData>\r\n" +
+                                                    "</GTSRequest>";
+                                            new HttpPostRuta(contexto).execute(body);
+                                        }
+                             }
 
 						}};
 						
@@ -1606,31 +1614,32 @@ public class Main extends FragmentActivity {
 	     	}});
 						
 			
-			this.spinnerDevices.setOnItemSelectedListener(new OnItemSelectedListener(){
+			this.spinnerDevices.setOnItemSelectedListener(new OnItemSelectedListener() {
 
-				public void onItemSelected(AdapterView<?> parent, View view,
-						int pos, long id) {
-					
-					//reiniciartimerwebservice();
-				    					
-					String seleccionado=parent.getItemAtPosition(pos).toString();
-					
-					for (Marker marker:listmarker){
-						if (marker.getTitle().equalsIgnoreCase(seleccionado))
-						{
-							//La primera vez, no queremos que se acerque a la posición del primero, sino una vista global de todos.
-							if (seleccionadoamano) mapa.animateCamera(CameraUpdateFactory.newLatLngZoom(marker.getPosition(), ZOOM));
-							
-							seleccionadoamano=true;
-						}
-					}
-					
-				}
+                public void onItemSelected(AdapterView<?> parent, View view,
+                                           int pos, long id) {
 
-				public void onNothingSelected(AdapterView<?> arg0) {
-					// TODO Auto-generated method stub
-					
-				}});
+                    //reiniciartimerwebservice();
+
+                    String seleccionado = parent.getItemAtPosition(pos).toString();
+
+                    for (Marker marker : listmarker) {
+                        if (marker.getTitle().equalsIgnoreCase(seleccionado)) {
+                            //La primera vez, no queremos que se acerque a la posición del primero, sino una vista global de todos.
+                            if (seleccionadoamano)
+                                mapa.animateCamera(CameraUpdateFactory.newLatLngZoom(marker.getPosition(), ZOOM));
+
+                            seleccionadoamano = true;
+                        }
+                    }
+
+                }
+
+                public void onNothingSelected(AdapterView<?> arg0) {
+                    // TODO Auto-generated method stub
+
+                }
+            });
 
 			this.cambiarvista.setOnClickListener(new OnClickListener(){
 

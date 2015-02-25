@@ -81,9 +81,8 @@ private ProgressDialog pd1;
 
 			Main.listmarkeroptionsruta= new Utiles().getposxmlruta(contexto,xml);
             if (Main.listmarkeroptionsruta.isEmpty()) {
-                if (alertdialog!=null) alertdialog.dismiss();
-                //alertdialog = (AlertDialog) new Dialogo().mostrar(contexto, "No hay ruta", "No existe ruta en la fecha seleccionada");
-                Toast.makeText(contexto,"No existe ruta en la fecha seleccionada",Toast.LENGTH_LONG).show();
+                new Dialogo().mostrar(contexto, "No hay ruta", "No existe ruta en la fecha " + Main.adia + "/" + (Main.ames+1) + "/" + Main.aanio);
+                //Toast.makeText(contexto,"No existe ruta en la fecha seleccionada",Toast.LENGTH_LONG).show();
             }
 			Main.handle_dibujar_ruta.sendEmptyMessage(0);
 		} catch (XmlPullParserException e) {
