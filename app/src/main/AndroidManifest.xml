@@ -5,8 +5,8 @@
     android:versionName="6" >
 
     <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="10" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
 
     <permission
         android:name="com.vicherarr.localizadorgsm.android.mapasapi2.permission.MAPS_RECEIVE"
@@ -88,7 +88,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" >
                 </action>
->
+>
+
             </intent-filter>
         </receiver>
 

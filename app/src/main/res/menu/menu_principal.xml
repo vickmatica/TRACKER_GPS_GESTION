@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@+id/itemajustes" android:title="@string/ajustes" android:menuCategory="container" android:orderInCategory="4" android:icon="@drawable/ic_ajustes">
+    <item android:id="@+id/itemajustes" android:title="@string/ajustes" android:showAsAction="withText" android:menuCategory="container" android:orderInCategory="2" android:icon="@drawable/ic_ajustes">
                <menu >
     	        
     	        <item android:id="@+id/itemconfiguracion" android:title="@string/configuracion" android:orderInCategory="4" android:menuCategory="container" android:icon="@drawable/ic_ajustes" android:visible="false"> </item>
@@ -8,12 +8,12 @@
                 <item android:id="@+id/itemconfiguracion_avanzada" android:orderInCategory="5" android:title="@string/configuracion_avanzada" android:menuCategory="container" android:icon="@drawable/ic_ajustes" android:visible="true"></item>
                 <item android:id="@+id/itemautorizar" android:orderInCategory="2" android:title="@string/autorizar_mi_numero" android:menuCategory="container" android:icon="@drawable/ic_ajustes"></item>
                 <item android:id="@+id/itemdesautorizar" android:orderInCategory="3" android:title="@string/desautorizarestetelefono" android:menuCategory="container" android:icon="@drawable/ic_ajustes"></item>
-               	<item android:id="@+id/itemmodovozon" android:menuCategory="container" android:title="@string/modovozon" android:orderInCategory="6"/>
-                <item android:id="@+id/itemmodovozoff" android:menuCategory="container" android:title="@string/modovozoff" android:orderInCategory="7"/>
-                <item android:id="@+id/itemconfiguraciongasto" android:title="@string/configuraravisos" android:orderInCategory="8" android:menuCategory="container"/>
-                <item android:id="@+id/itemdetenersos" android:menuCategory="container" android:title="@string/detenersos" android:orderInCategory="5"/>
-                <item android:id="@+id/itemnumeroprincipal" android:orderInCategory="1" android:title="@string/configinicial" android:menuCategory="container"/>
-                <item android:id="@+id/itemuserypass" android:title="@string/userypass" android:orderInCategory="1"/>
+               	<item android:id="@+id/itemmodovozon" android:menuCategory="container" android:title="@string/modovozon" android:orderInCategory="6" android:icon="@drawable/ic_ajustes" />
+                <item android:id="@+id/itemmodovozoff" android:menuCategory="container" android:title="@string/modovozoff" android:orderInCategory="7" android:icon="@drawable/ic_ajustes" />
+                <item android:id="@+id/itemconfiguraciongasto" android:title="@string/configuraravisos" android:orderInCategory="8" android:menuCategory="container" android:icon="@drawable/ic_ajustes" />
+                <item android:id="@+id/itemdetenersos" android:menuCategory="container" android:title="@string/detenersos" android:orderInCategory="5" android:icon="@drawable/ic_ajustes" />
+                <item android:id="@+id/itemnumeroprincipal" android:orderInCategory="1" android:title="@string/configinicial" android:menuCategory="container" android:icon="@drawable/ic_ajustes" />
+                <item android:id="@+id/itemuserypass" android:title="@string/userypass" android:orderInCategory="1" android:icon="@drawable/ic_ajustes" />
               
                   	
 	           	
@@ -24,9 +24,9 @@
            
     
     
-    <item android:id="@+id/itemllamar" android:title="@string/llamarlocalizador" android:menuCategory="container" android:orderInCategory="1" android:icon="@drawable/ic_llamar"></item>
+    <item android:id="@+id/itemllamar" android:title="@string/llamarlocalizador" android:showAsAction="withText" android:menuCategory="container" android:orderInCategory="1" android:icon="@drawable/ic_llamar"></item>
     
-    <item android:id="@+id/itemdetectarmovimiento" android:title="@string/deteccion_movimiento" android:menuCategory="container" android:orderInCategory="2" android:icon="@drawable/ic_detectarmovimiento">
+    <item android:id="@+id/itemdetectarmovimiento" android:title="@string/deteccion_movimiento" android:showAsAction="withText" android:menuCategory="container" android:orderInCategory="4" android:icon="@drawable/ic_detectarmovimiento">
        <menu>
                <item android:id="@+id/itemactivardetectarmovimiento" android:title="@string/activardeteccionmovimiento" android:menuCategory="container" android:orderInCategory="1" android:icon="@drawable/ic_detectarmovimiento"> </item>
                <item android:id="@+id/itemdesactivardetectarmovimiento" android:title="@string/desactivardeteccionmovimiento" android:menuCategory="container" android:orderInCategory="2" android:icon="@drawable/ic_detectarmovimiento"> </item>
@@ -34,7 +34,7 @@
        </menu> 
     </item>
     
-      <item android:id="@+id/itemexcesovelocidad" android:title="@string/deteccionexcesovelocidad" android:menuCategory="container" android:orderInCategory="6" android:icon="@drawable/ic_excesovelocidad">
+      <item android:id="@+id/itemexcesovelocidad" android:title="@string/deteccionexcesovelocidad" android:showAsAction="withText" android:menuCategory="container" android:orderInCategory="5" android:icon="@drawable/ic_excesovelocidad">
        <menu>
                <item android:id="@+id/itemactivardetectarvelocidad" android:title="@string/activar" android:menuCategory="container" android:orderInCategory="10" android:icon="@drawable/ic_excesovelocidad"> </item>
                <item android:id="@+id/itemdesactivardetectarvelocidad" android:title="@string/desactivar" android:menuCategory="container" android:orderInCategory="11" android:icon="@drawable/ic_excesovelocidad"> </item>
@@ -44,7 +44,7 @@
     
         
 
- <item android:id="@+id/itemautorastreo" android:title="@string/autorastreo" android:menuCategory="container" android:orderInCategory="7" android:icon="@drawable/ic_autorastreo">
+ <item android:id="@+id/itemautorastreo" android:title="@string/autorastreo"  android:showAsAction="withText" android:menuCategory="container" android:orderInCategory="7" android:icon="@drawable/ic_autorastreo">
        <menu>
                <item android:id="@+id/itemactivarautorastreo" android:title="@string/activar" android:menuCategory="container" android:orderInCategory="1" android:icon="@drawable/ic_autorastreo"> </item>
                <item android:id="@+id/itemdesactivarautorastreo" android:title="@string/desactivar" android:menuCategory="container" android:orderInCategory="2" android:icon="@drawable/ic_autorastreo"> </item>
@@ -53,7 +53,7 @@
  </item>
  
  
- <item android:id="@+id/itemcortarcorriente" android:title="@string/cortarcorriente" android:menuCategory="container" android:orderInCategory="7" android:icon="@drawable/ic_autorastreo">
+ <item android:id="@+id/itemcortarcorriente" android:title="@string/cortarcorriente"  android:showAsAction="withText" android:menuCategory="container" android:orderInCategory="7" android:icon="@drawable/ic_autorastreo">
        <menu>
                <item android:id="@+id/itemactivarcortarcorriente" android:title="@string/activar" android:menuCategory="container" android:orderInCategory="1" android:icon="@drawable/ic_autorastreo"> </item>
                <item android:id="@+id/itemdesactivarcortarcorriente" android:title="@string/desactivar" android:menuCategory="container" android:orderInCategory="2" android:icon="@drawable/ic_autorastreo"> </item>
@@ -63,9 +63,9 @@
  
  
  <item android:id="@+id/itemacercade" android:orderInCategory="100" android:menuCategory="container" android:title="@string/acercade" android:visible="true" android:enabled="true"></item>
- <item android:id="@+id/itemdondeestoy" android:menuCategory="container" android:title="@string/dondeestoy" android:icon="@drawable/ic_dondeestoy_conmarco" android:orderInCategory="1" android:visible="false"></item>
+ <item android:id="@+id/itemdondeestoy" android:menuCategory="container"  android:showAsAction="withText"  android:title="@string/dondeestoy" android:icon="@drawable/ic_dondeestoy_conmarco" android:orderInCategory="1" android:visible="false"></item>
  
- <item android:id="@+id/itemhistorial" android:menuCategory="container" android:orderInCategory="3" android:icon="@drawable/ic_historial" android:title="@string/historial">
+ <item android:id="@+id/itemhistorial" android:menuCategory="container" android:showAsAction="withText"  android:orderInCategory="3" android:icon="@drawable/ic_historial" android:title="@string/historial">
  <menu>
                <item android:id="@+id/itemhistorialentrada" android:title="@string/historialrecepcion" android:menuCategory="container" android:orderInCategory="1" android:icon="@drawable/ic_historial"> </item>
                <item android:id="@+id/itemhistorialenvio" android:title="@string/historialenvio" android:menuCategory="container" android:orderInCategory="2" android:icon="@drawable/ic_historial"> </item>
@@ -73,11 +73,11 @@
  </menu>    
      
  </item>
- <item android:id="@+id/itemlimitararea" android:orderInCategory="5" android:menuCategory="container" android:title="@string/limitararea" android:titleCondensed="@string/limitararea" android:visible="true" android:enabled="true" android:icon="@drawable/ic_limitararea">
+ <item android:id="@+id/itemlimitararea"  android:showAsAction="withText" android:orderInCategory="5" android:menuCategory="container" android:title="@string/limitararea" android:titleCondensed="@string/limitararea" android:visible="true" android:enabled="true" android:icon="@drawable/ic_limitararea">
       <menu>
-                <item android:id="@+id/itemactivarlimitararea" android:title="@string/activar" android:menuCategory="container" android:orderInCategory="10"/>
-                <item android:id="@+id/itemdesactivarlimitararea" android:title="@string/desactivar" android:menuCategory="container" android:orderInCategory="11"/>                
-                <item android:id="@+id/itempreguntarlimitararea" android:title="@string/preguntarlimitararea" android:menuCategory="container" android:orderInCategory="12"/>
+                <item android:id="@+id/itemactivarlimitararea" android:title="@string/activar" android:menuCategory="container" android:orderInCategory="10" android:icon="@drawable/ic_limitararea"/>
+                <item android:id="@+id/itemdesactivarlimitararea" android:title="@string/desactivar" android:menuCategory="container" android:orderInCategory="11" android:icon="@drawable/ic_limitararea"/>
+                <item android:id="@+id/itempreguntarlimitararea" android:title="@string/preguntarlimitararea" android:menuCategory="container" android:orderInCategory="12" android:icon="@drawable/ic_limitararea"/>
                
                 
                 

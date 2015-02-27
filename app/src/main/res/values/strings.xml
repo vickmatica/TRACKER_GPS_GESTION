@@ -85,8 +85,8 @@
     <string name="preciosmslocalizador">Precio SMS</string>
     <string name="ponera0endiaindicado">Establecer gasto total a 0 en el día indicado de cada mes</string>
     <string name="saldo_localizador">Saldo</string>
-    <string name="historialrecepcion">Historial de recepción</string>
-    <string name="historialenvio">Historial de envíos</string>
+    <string name="historialrecepcion">Historial de recepción SMS</string>
+    <string name="historialenvio">Historial de envíos SMS</string>
     <string name="configuraciongasto">Configuración de gasto</string>
     <string name="saldominimoavisar">Saldo mínimo de aviso</string>
     <string name="saldoactual"></string>

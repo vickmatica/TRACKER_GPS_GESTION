@@ -83,8 +83,8 @@
     <string name="preciosmslocalizador">Price by SMS</string>
     <string name="ponera0endiaindicado">Establecer gasto total a 0 en el día indicado de cada mes</string>
     <string name="saldo_localizador">Estimated balance</string>
-    <string name="historialrecepcion">Recepción history</string>
-    <string name="historialenvio">Shipping history</string>
+    <string name="historialrecepcion">Recepción history SMS</string>
+    <string name="historialenvio">Shipping history SMS</string>
     <string name="configuraciongasto">Setting spending</string>
     <string name="saldominimoavisar">Minimum balance warning</string>
     <string name="saldoactual">Current balance</string>

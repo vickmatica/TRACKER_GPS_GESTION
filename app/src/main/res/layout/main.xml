@@ -119,6 +119,8 @@
         android:id="@+id/spinnerDevices"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#999999"
+        android:spinnerMode="dropdown"
         android:layout_alignBottom="@+id/botonmenu"
         android:layout_alignRight="@+id/posterior"
         android:layout_alignTop="@+id/botonmenu"
@@ -139,5 +141,5 @@
         android:layout_alignLeft="@+id/botonmenu"
         android:layout_below="@+id/botonmenu"
         android:src="@drawable/ic_ruta" />
-     
+
 </RelativeLayout>

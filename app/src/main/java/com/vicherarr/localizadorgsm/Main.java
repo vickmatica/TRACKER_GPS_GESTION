@@ -12,6 +12,8 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 import org.jsoup.nodes.Document;
+
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.AlertDialog.Builder;
@@ -337,11 +339,11 @@ public class Main extends FragmentActivity {
 		
 		static Handler handle_dibujar_servicioweb;
 		public static Handler handle_dibujar_ruta;
-		
-	 
-		
-			
-		
+
+
+
+
+
 		//método para establecer zoom en funcion de la precision
 	    protected void zoomautomatico(){
 				int zoom=15;	
@@ -1136,7 +1138,9 @@ public class Main extends FragmentActivity {
 		@Override
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-	       
+
+
+
 	        
 	        
            preferencias = getSharedPreferences(PREFERENCIAS,Context.MODE_PRIVATE);
@@ -1568,7 +1572,7 @@ public class Main extends FragmentActivity {
                             aanio=anio; ames=mes; adia=dia;
 
 							vecesllamado++;
-                            if ( (vecesllamado%2==0)) {
+                            if ( (vecesllamado%2==0) || true) {
                                     String device;
 
 
@@ -2388,12 +2392,15 @@ public class Main extends FragmentActivity {
 		  public void onAttachedToWindow() {
 		      super.onAttachedToWindow();
 		      //openOptionsMenu();
-		  } 
-		 
+		  }
+
+
+
 		  
 	   @Override	 
 	   public boolean onPrepareOptionsMenu(Menu menu){
-		   menu.clear();
+
+		  	   menu.clear();
 		   getMenuInflater().inflate(R.menu.menu_principal, menu);
 		   
 		   
@@ -2496,9 +2503,9 @@ public class Main extends FragmentActivity {
 	 	@Override
 		public boolean onOptionsItemSelected(MenuItem item) {
 		String comandosms;
-		
-		
-		
+
+
+
 		//String invalidonum=this.getResources().getString(R.string.invalidonumlocalizador);
 			switch (item.getItemId()) {
 				
@@ -2533,7 +2540,7 @@ APN Yoigo 	internet 	[vacío] 	[vacío] 	Foro Yoigo
 			
 			/* #802#APN letters or digits, 4-20 bits# Log user name letters or digits4-20 bits in # Log password letter or digits 4-20 bits in # terminal password 4 bits ##"
 			 * */
-			
+
 			case R.id.itemuserypass:
 			{
 			  Intent intent=new Intent(contexto,UseryPass.class); 	
