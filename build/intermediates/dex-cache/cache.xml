@@ -2,46 +2,137 @@
 <items version="2" >
 
     <item
-        jar="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\libs\jsoup-1.7.2.jar"
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="872693211fd68d1c4e116cf90021603207725e19">
-        <dex dex="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\jsoup-1.7.2-e6a86e78d360060d55266cf4cd850bd383506fc3.jar" />
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-ef998680c71553bca58a12c3664a92841671bc04.jar" />
     </item>
     <item
-        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-59cb45b036a4e92876b27e5c2e4a2aedf29adfae.jar" />
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-c7f5aff6821a43873b9ead7631e1ef6bc0c07999.jar" />
     </item>
     <item
-        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-49059111beb727f3fd57eb9820be63b37fa2814e.jar" />
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-49cef757c79f52478ea6adf477c52f7641eed281.jar" />
     </item>
     <item
-        jar="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-aeed21b02758fe561abfefc5817dac01ca863623.jar" />
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-ba889ec94d232e600fb75e20a8eef71fbf84dd4b.jar" />
     </item>
     <item
-        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-a7a9a53d1ed25d58e9b57c6fb7865d89bae1057a.jar" />
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-8b8423cc43a03257b4db2b986f09c1169c294e03.jar" />
     </item>
     <item
-        jar="C:\Users\Víctor\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-24ca7e4d8a2ce84b24e77b3deb3ce50d7af3c29e.jar" />
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-1b6209eeec7f438c8b5e2eaadbd2ce473e52fa47.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-7c40c6f96f2c822d96300f2494d56fc8fca992c0.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-12334245c790162d9027f1f965bd055a2d21cc46.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-bc4398619232076506e6e5781b25a5532694ad22.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-6c98d9ee77f0a8086248bdac3362750084d919be.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-e30421ca2831bfb7def13277985727679b689ea4.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-8abf95e2112549ea09c0ef65018f5ac680074956.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-01070507419c3b3a2fd1179b522fb7e7acdf0a98.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-edfecc1e8c59613822015d89cb42f1f9765cca00.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-1ab252c1bca2a2cf439119c8202660f78bf4e969.jar" />
+    </item>
+    <item
+        jar="C:\Users\Víctor\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-b117834ee13ad9daee007e193e0069060f821c81.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-0fde6b31f613e518590c0e7a299627ab8db53724.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-653518edb163419afe59d69821f722ec10d3bb8e.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-26916a24545408dedcf5d273b3884678a0990239.jar" />
     </item>
     <item
         jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\libs\jsoup-1.7.2.jar"
@@ -51,18 +142,25 @@
         <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\jsoup-1.7.2-7022bce572bb5869881f4a53d347311b2627dbdf.jar" />
     </item>
     <item
-        jar="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\classes-c2759bae7c64a98786a0000be6a1c58ffec9d2ff.jar" />
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-ac071fa896e381743507ec17fbf9d3399e4c1f5a.jar" />
     </item>
     <item
-        jar="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="C:\desarrollo\androidstudio\TRACKER GPS GESTION\app\build\intermediates\pre-dexed\debug\classes-e9b603cb2f70fbb06bf5542369d6d0d8ae58d4ec.jar" />
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-bbc6aaed7455c8363da829dd89f4a427c6082f19.jar" />
+    </item>
+    <item
+        jar="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\desarrollo\androidstudio\TRACKER_GPS_GESTION\app\build\intermediates\pre-dexed\debug\classes-e3323abf3132ab0072abe536f5de03a86f09a5e0.jar" />
     </item>
 
 </items>

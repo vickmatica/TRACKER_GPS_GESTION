@@ -1,14 +1,14 @@
 package com.vicherarr.localizadorgsm;
 
-import java.io.IOException;
-
-import org.xmlpull.v1.XmlPullParserException;
-
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.widget.Toast;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
 
 public class HttpPostRuta extends AsyncTask<String, Void, String> 
 {       
@@ -63,7 +63,7 @@ private ProgressDialog pd1;
         try {
         
 		        for (int i=0;i<body.length;i++) 
-		        	//result=new UtilesWeb().gtsRequest(url, body[i]);
+		           //result=new UtilesWeb().gtsRequest(url, body[i]);
                    result=new UtilesWeb().gtsRequestSSL(HttpPost.urlSSL, HttpPost.targetDomain, body[i]);
         
         } catch(Exception e) {

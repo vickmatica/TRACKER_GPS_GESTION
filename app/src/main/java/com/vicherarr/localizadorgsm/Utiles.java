@@ -8,32 +8,6 @@
  * 
  * */
 package com.vicherarr.localizadorgsm;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.StringReader;
-import java.math.BigDecimal;
-import java.net.InetAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
-import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Set;
-import java.util.StringTokenizer;
-
-import org.jsoup.nodes.Document;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-import org.xmlpull.v1.XmlPullParserFactory;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -54,7 +28,6 @@ import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.hardware.GeomagneticField;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -69,7 +42,6 @@ import android.view.animation.OvershootInterpolator;
 import android.view.animation.ScaleAnimation;
 import android.widget.Toast;
 
-import com.google.android.gms.drive.internal.x;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -78,6 +50,25 @@ import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+import org.jsoup.nodes.Document;
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+import org.xmlpull.v1.XmlPullParserFactory;
+
+import java.io.IOException;
+import java.io.StringReader;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Locale;
+import java.util.StringTokenizer;
 
 
 public class Utiles  {
@@ -119,52 +110,7 @@ protected static Document doc;
 
 //private OverlavLocalizador overlayubicacion;
 
-void escucharsocket(final int PUERTO)
-{
-    new Thread() 
-    {
-        public void run() 
-        {
-        	try {
-        		
-        	
-            	
-				
-				ServerSocket serversocket=new ServerSocket(60001);
-                
-				Log.i("Nombre de host SERVERSOCKET: ",serversocket.getInetAddress().getHostName());
-				
-				Socket socket = new Socket();
-                
-                             
-                Log.i("SERVERSOCKET", "Escuchando");
-                
-                socket=serversocket.accept();
-                
-                
-                
-                InetAddress ia = socket.getInetAddress();
-                System.out.println("Client Address: " + ia.getHostAddress());
-                
-                Log.i("Dirección cliente", ia.getHostAddress());
-              //Canales de entrada y salida de datos
-        	    
-                do
-                {
-        		BufferedReader entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        		
-        		
-        		Log.i("serversocket:" ,entrada.readLine());
-        		
-                } while (socket.isConnected());
-                
 
-            } catch (Exception e) {
-                Log.i("AsyncTask", "No puedo crear socket");
-            }
-        }
-    }.start();
-}
 
 public void mostrartexto(String texto, Context contexto){
 	Toast.makeText(contexto, texto, Toast.LENGTH_LONG).show();
@@ -419,7 +365,7 @@ public static void reproducirsonido(Context contexto, int resid){
 		   }
 		   catch (Exception e)
 		   {
-			Log.i("Imposible redimensionar foto", e.getMessage());   
+			Log.i("Utiles.java","Imposible redimensionar foto");
 			return null;   
 		   }
 		   return bitmapaux; 
@@ -1372,7 +1318,7 @@ return retorno;
 		switch (getResultCode()) {
         case Activity.RESULT_OK:
         
-        Toast.makeText(_context, _context.getResources().getString(R.string.smsenviadoconexito), TIEMPO_MENSAJEALERTA).show(); 
+        Toast.makeText(_context, _context.getResources().getString(R.string.smsenviadoconexito), Toast.LENGTH_LONG).show();
        //Registra el sms en el historial de salida y borra los registros antiguos	
 	    basedatos=new Basedatos(_context);
 	    basedatos.insertarSalida(mensajesms,numerosms);
@@ -1380,11 +1326,11 @@ return retorno;
 		basedatos.cerrarbd();        
         break;
         case SmsManager.RESULT_ERROR_GENERIC_FAILURE:
-        Toast.makeText(_context, _context.getResources().getString(R.string.imposibleenviarsms), TIEMPO_MENSAJEALERTA).show(); break;
+        Toast.makeText(_context, _context.getResources().getString(R.string.imposibleenviarsms), Toast.LENGTH_LONG).show(); break;
         case SmsManager.RESULT_ERROR_RADIO_OFF:
-       	Toast.makeText(_context, _context.getResources().getString(R.string.sincobertura), TIEMPO_MENSAJEALERTA).show(); break;
+       	Toast.makeText(_context, _context.getResources().getString(R.string.sincobertura), Toast.LENGTH_LONG).show(); break;
         case SmsManager.RESULT_ERROR_NULL_PDU:
-        Toast.makeText(_context, "Error PDU", TIEMPO_MENSAJEALERTA).show();  break;
+        Toast.makeText(_context, "Error PDU", Toast.LENGTH_LONG).show();  break;
         }
         }
         },
@@ -1395,7 +1341,7 @@ return retorno;
         context.registerReceiver(new BroadcastReceiver() {
         @Override
         public void onReceive(Context _context, Intent _intent) {
-         Toast.makeText(_context, _context.getResources().getString(R.string.smsentregadocorrectamente), TIEMPO_MENSAJEALERTA).show();  
+         Toast.makeText(_context, _context.getResources().getString(R.string.smsentregadocorrectamente), Toast.LENGTH_LONG).show();
         }
         },
         new IntentFilter(DELIVERED_SMS_ACTION));
@@ -1793,7 +1739,7 @@ public static void alertacaducidad(Context contexto, String numerosmsbd){
             	
 	                 String resultado=xpp.getAttributeValue("GTSResponse", "result");
 	                 if (resultado!=null){ 
-	                	 Log.i(tag,"Resultado ServicioWeb: " + resultado);
+	                	 Log.i("Utiles.java","Resultado Servicio Web: resultado");
 	                     if (resultado.equalsIgnoreCase("sucess") ){
 	                      result_servicio=true;
 	                  }
@@ -1920,7 +1866,7 @@ public static void alertacaducidad(Context contexto, String numerosmsbd){
             	
 	                 String resultado=xpp.getAttributeValue("GTSResponse", "result");
 	                 if (resultado!=null){ 
-	                	 Log.i(tag,"Resultado ServicioWeb: " + resultado);
+	                	 Log.i("getposxmlruta:","ServicioWeb: " + resultado);
 	                     if (resultado.equalsIgnoreCase("sucess") ){
 	                      result_servicio=true;
 	                  }
@@ -2043,7 +1989,6 @@ public static void alertacaducidad(Context contexto, String numerosmsbd){
      /**
       *** Returns a String representation of the spedified compass heading value
       *** @param heading  The compass heading value to convert to a String representation
-      *** @param locale   The locale
       *** @return A String representation of the compass heading (ie. "N", "NE", "E", "SE", "S", "SW", "W", "NW")
       **/
       public static String getDireccionString(float heading)

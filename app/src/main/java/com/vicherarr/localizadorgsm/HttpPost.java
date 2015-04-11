@@ -13,7 +13,7 @@ public class HttpPost extends AsyncTask<String, Void, String>
   public Context contexto;
 
    public static String url = "http://vps119481.ovh.net:8080/servicio/Service";
-   public static String urlSSL = "https://vps119481.ovh.net:8443/servicio/Service";
+   public static String urlSSL = "https://vps119481.ovh.net:8181/servicio/Service";
    public static String targetDomain = "vps119481.ovh.net";
   
   public HttpPost(Context context)

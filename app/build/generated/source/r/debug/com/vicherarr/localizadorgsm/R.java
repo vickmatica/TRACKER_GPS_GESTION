@@ -43,7 +43,7 @@ containing a value of this type.
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int appTheme=0x7f010016;
+        public static final int appTheme=0x7f010017;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -55,7 +55,7 @@ containing a value of this type.
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
          */
-        public static final int buyButtonAppearance=0x7f01001d;
+        public static final int buyButtonAppearance=0x7f01001e;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -74,7 +74,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
          */
-        public static final int buyButtonHeight=0x7f01001a;
+        public static final int buyButtonHeight=0x7f01001b;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -87,7 +87,7 @@ containing a value of this type.
 <tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int buyButtonText=0x7f01001c;
+        public static final int buyButtonText=0x7f01001d;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -106,7 +106,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
          */
-        public static final int buyButtonWidth=0x7f01001b;
+        public static final int buyButtonWidth=0x7f01001c;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -114,7 +114,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraBearing=0x7f010007;
+        public static final int cameraBearing=0x7f010008;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -122,7 +122,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTargetLat=0x7f010008;
+        public static final int cameraTargetLat=0x7f010009;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -130,7 +130,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTargetLng=0x7f010009;
+        public static final int cameraTargetLng=0x7f01000a;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -138,7 +138,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTilt=0x7f01000a;
+        public static final int cameraTilt=0x7f01000b;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -146,7 +146,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraZoom=0x7f01000b;
+        public static final int cameraZoom=0x7f01000c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -154,7 +154,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circleCrop=0x7f010005;
+        public static final int circleCrop=0x7f010006;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -166,7 +166,7 @@ containing a value of this type.
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int environment=0x7f010017;
+        public static final int environment=0x7f010018;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -177,11 +177,11 @@ containing a value of this type.
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int fragmentMode=0x7f010019;
+        public static final int fragmentMode=0x7f01001a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int fragmentStyle=0x7f010018;
+        public static final int fragmentStyle=0x7f010019;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -189,7 +189,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int imageAspectRatio=0x7f010004;
+        public static final int imageAspectRatio=0x7f010005;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -201,7 +201,7 @@ containing a value of this type.
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int imageAspectRatioAdjust=0x7f010003;
+        public static final int imageAspectRatioAdjust=0x7f010004;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -209,7 +209,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int liteMode=0x7f01000c;
+        public static final int liteMode=0x7f01000d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -223,27 +223,27 @@ containing a value of this type.
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int mapType=0x7f010006;
+        public static final int mapType=0x7f010007;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int maskedWalletDetailsBackground=0x7f010020;
+        public static final int maskedWalletDetailsBackground=0x7f010021;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int maskedWalletDetailsButtonBackground=0x7f010022;
+        public static final int maskedWalletDetailsButtonBackground=0x7f010023;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int maskedWalletDetailsButtonTextAppearance=0x7f010021;
+        public static final int maskedWalletDetailsButtonTextAppearance=0x7f010022;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int maskedWalletDetailsHeaderTextAppearance=0x7f01001f;
+        public static final int maskedWalletDetailsHeaderTextAppearance=0x7f010020;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -254,7 +254,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int maskedWalletDetailsLogoImageType=0x7f010024;
+        public static final int maskedWalletDetailsLogoImageType=0x7f010025;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -263,11 +263,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maskedWalletDetailsLogoTextColor=0x7f010023;
+        public static final int maskedWalletDetailsLogoTextColor=0x7f010024;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int maskedWalletDetailsTextAppearance=0x7f01001e;
+        public static final int maskedWalletDetailsTextAppearance=0x7f01001f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -275,7 +275,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiCompass=0x7f01000d;
+        public static final int uiCompass=0x7f01000e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -283,7 +283,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiMapToolbar=0x7f010015;
+        public static final int uiMapToolbar=0x7f010016;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -291,7 +291,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiRotateGestures=0x7f01000e;
+        public static final int uiRotateGestures=0x7f01000f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -299,7 +299,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiScrollGestures=0x7f01000f;
+        public static final int uiScrollGestures=0x7f010010;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -307,7 +307,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiTiltGestures=0x7f010010;
+        public static final int uiTiltGestures=0x7f010011;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -315,7 +315,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiZoomControls=0x7f010011;
+        public static final int uiZoomControls=0x7f010012;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -323,7 +323,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiZoomGestures=0x7f010012;
+        public static final int uiZoomGestures=0x7f010013;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -331,7 +331,18 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int useViewLifecycle=0x7f010013;
+        public static final int useViewLifecycle=0x7f010014;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>slide</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int windowTransitionStyle=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -339,7 +350,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int zOrderOnTop=0x7f010014;
+        public static final int zOrderOnTop=0x7f010015;
     }
     public static final class color {
         public static final int common_action_bar_splitter=0x7f050000;
@@ -472,184 +483,183 @@ containing a value of this type.
         public static final int verde=0x7f02005c;
     }
     public static final class id {
-        public static final int TextView01=0x7f0b007f;
-        public static final int View01=0x7f0b004c;
-        public static final int action_settings=0x7f0b008c;
-        public static final int adjust_height=0x7f0b0000;
-        public static final int adjust_width=0x7f0b0001;
-        public static final int anterior=0x7f0b0073;
-        public static final int book_now=0x7f0b0010;
-        public static final int botonatras=0x7f0b0057;
-        public static final int botonatrasnuevo=0x7f0b007e;
-        public static final int botonborrar=0x7f0b005e;
-        public static final int botoncambiarfecha=0x7f0b0064;
-        public static final int botoncancelar=0x7f0b005d;
-        public static final int botonguardarclave=0x7f0b005c;
-        public static final int botonguardargasto=0x7f0b0053;
-        public static final int botonguardaridioma=0x7f0b006e;
-        public static final int botonguardarnuevo=0x7f0b0085;
-        public static final int botonmenu=0x7f0b0076;
-        public static final int botonnuevo=0x7f0b0059;
-        public static final int botonsalir=0x7f0b0026;
-        public static final int btnguardarusuario=0x7f0b008a;
-        public static final int buttonGuardarConfAvanzada=0x7f0b002c;
-        public static final int buyButton=0x7f0b000c;
-        public static final int buy_now=0x7f0b0011;
-        public static final int buy_with_google=0x7f0b0012;
-        public static final int classic=0x7f0b0014;
-        public static final int configuraravisos=0x7f0b0065;
-        public static final int donate_with_google=0x7f0b0013;
-        public static final int editTextActivarDeteccionVelocidad=0x7f0b003f;
-        public static final int editTextActivarLimitarSuperficie=0x7f0b0049;
-        public static final int editTextActivarModoEscucharVoz=0x7f0b0044;
-        public static final int editTextActivarMovimiento=0x7f0b0035;
-        public static final int editTextAutorizar=0x7f0b0030;
-        public static final int editTextClaveLocalizadorMultiple=0x7f0b005f;
-        public static final int editTextClaveNuevo=0x7f0b0084;
-        public static final int editTextDesactivarDetectarMovimiento=0x7f0b0037;
-        public static final int editTextDesactivarLimitSuperficie=0x7f0b004b;
-        public static final int editTextDesactivarModoEscucharVoz=0x7f0b0046;
-        public static final int editTextDesautorizar=0x7f0b0032;
-        public static final int editTextNumLocalizador=0x7f0b005b;
-        public static final int editTextNumLocalizadornuevo=0x7f0b0080;
-        public static final int editTextOrdenPosLatitud=0x7f0b004d;
-        public static final int editTextOrdenPosLongitud=0x7f0b004e;
-        public static final int editTextRastreoActivar=0x7f0b003a;
-        public static final int editTextRastreoDesactivar=0x7f0b003c;
-        public static final int editTextconfInicial=0x7f0b002f;
-        public static final int editTextdesactivarexcesovelocidad=0x7f0b0041;
-        public static final int editTextmesescaducidad=0x7f0b0052;
-        public static final int editTextnombrelocalizador=0x7f0b0082;
-        public static final int editTextpvpxsmsloc=0x7f0b0061;
-        public static final int editTextsaldominimo=0x7f0b0051;
-        public static final int editTextsaldoporlocalizador=0x7f0b0060;
-        public static final int editTextseparadorcoordenadas=0x7f0b004f;
-        public static final int fecharecarga=0x7f0b0063;
-        public static final int firstDivideracercade=0x7f0b001c;
-        public static final int firstDivideracercade1=0x7f0b0017;
-        public static final int fotomodelo=0x7f0b0028;
-        public static final int grayscale=0x7f0b0015;
-        public static final int holo_dark=0x7f0b0007;
-        public static final int holo_light=0x7f0b0008;
-        public static final int hybrid=0x7f0b0003;
-        public static final int image3d=0x7f0b0074;
-        public static final int imageViewAgregar=0x7f0b0027;
-        public static final int imagenespanol=0x7f0b006a;
-        public static final int imageningles=0x7f0b006d;
-        public static final int imagenmodelonuevo=0x7f0b0055;
-        public static final int imagenruta=0x7f0b0079;
-        public static final int imagenupdate=0x7f0b0078;
-        public static final int imagenvistasatelite=0x7f0b0075;
-        public static final int itemacercade=0x7f0b00a6;
-        public static final int itemactivarautorastreo=0x7f0b00a1;
-        public static final int itemactivarcortarcorriente=0x7f0b00a4;
-        public static final int itemactivardetectarmovimiento=0x7f0b009b;
-        public static final int itemactivardetectarvelocidad=0x7f0b009e;
-        public static final int itemactivarlimitararea=0x7f0b00ac;
-        public static final int itemajustes=0x7f0b008d;
-        public static final int itemautorastreo=0x7f0b00a0;
-        public static final int itemautorizar=0x7f0b0091;
-        public static final int itemconfiguracion=0x7f0b008e;
-        public static final int itemconfiguracion_avanzada=0x7f0b0090;
-        public static final int itemconfiguraciongasto=0x7f0b0095;
-        public static final int itemconfiguracioninicial=0x7f0b008f;
-        public static final int itemcortarcorriente=0x7f0b00a3;
-        public static final int itemdesactivarautorastreo=0x7f0b00a2;
-        public static final int itemdesactivarcortarcorriente=0x7f0b00a5;
-        public static final int itemdesactivardetectarmovimiento=0x7f0b009c;
-        public static final int itemdesactivardetectarvelocidad=0x7f0b009f;
-        public static final int itemdesactivarlimitararea=0x7f0b00ad;
-        public static final int itemdesautorizar=0x7f0b0092;
-        public static final int itemdetectarmovimiento=0x7f0b009a;
-        public static final int itemdetenersos=0x7f0b0096;
-        public static final int itemdondeestoy=0x7f0b00a7;
-        public static final int itemespanol=0x7f0b00b0;
-        public static final int itemexcesovelocidad=0x7f0b009d;
-        public static final int itemhistorial=0x7f0b00a8;
-        public static final int itemhistorialentrada=0x7f0b00a9;
-        public static final int itemhistorialenvio=0x7f0b00aa;
-        public static final int itemidiomas=0x7f0b00af;
-        public static final int itemingles=0x7f0b00b1;
-        public static final int itemlimitararea=0x7f0b00ab;
-        public static final int itemllamar=0x7f0b0099;
-        public static final int itemmodovozoff=0x7f0b0094;
-        public static final int itemmodovozon=0x7f0b0093;
-        public static final int itemnumeroprincipal=0x7f0b0097;
-        public static final int itempreguntarlimitararea=0x7f0b00ae;
-        public static final int itemuserypass=0x7f0b0098;
-        public static final int locseleccionado=0x7f0b0071;
-        public static final int login_error=0x7f0b008b;
-        public static final int mapa=0x7f0b006f;
-        public static final int match_parent=0x7f0b000e;
-        public static final int micubo=0x7f0b007b;
-        public static final int micubo3d=0x7f0b0024;
-        public static final int monochrome=0x7f0b0016;
-        public static final int none=0x7f0b0002;
-        public static final int normal=0x7f0b0004;
-        public static final int posterior=0x7f0b0072;
-        public static final int production=0x7f0b0009;
-        public static final int quickContactBadge1=0x7f0b001e;
-        public static final int quickContactBadge2=0x7f0b0019;
-        public static final int radioGroup1=0x7f0b0067;
-        public static final int radioenglish=0x7f0b006c;
-        public static final int radiospanish=0x7f0b0069;
-        public static final int sandbox=0x7f0b000a;
-        public static final int satellite=0x7f0b0005;
-        public static final int scrollView1=0x7f0b007c;
-        public static final int selectionDetails=0x7f0b000d;
-        public static final int smsrestantes=0x7f0b0066;
-        public static final int spinnerDevices=0x7f0b0077;
-        public static final int spinnermarca=0x7f0b007d;
-        public static final int spinnermodelonuevo=0x7f0b0058;
-        public static final int strict_sandbox=0x7f0b000b;
-        public static final int tableRow1=0x7f0b0068;
-        public static final int tableRow2=0x7f0b006b;
-        public static final int terrain=0x7f0b0006;
-        public static final int text1=0x7f0b0029;
-        public static final int text2=0x7f0b002a;
-        public static final int textView1=0x7f0b0086;
-        public static final int textView10=0x7f0b0031;
-        public static final int textView11=0x7f0b0038;
-        public static final int textView12=0x7f0b0039;
-        public static final int textView13=0x7f0b003b;
-        public static final int textView14=0x7f0b0042;
-        public static final int textView15=0x7f0b0047;
-        public static final int textView16=0x7f0b0048;
-        public static final int textView17=0x7f0b004a;
-        public static final int textView18=0x7f0b0043;
-        public static final int textView19=0x7f0b0045;
-        public static final int textView2=0x7f0b0088;
-        public static final int textView20=0x7f0b002d;
-        public static final int textView21=0x7f0b0033;
-        public static final int textView22=0x7f0b0034;
-        public static final int textView23=0x7f0b0036;
-        public static final int textView24=0x7f0b003d;
-        public static final int textView25=0x7f0b003e;
-        public static final int textView26=0x7f0b0040;
-        public static final int textView3=0x7f0b0021;
-        public static final int textView4=0x7f0b0020;
-        public static final int textView5=0x7f0b0022;
-        public static final int textView6=0x7f0b0023;
-        public static final int textView7=0x7f0b001d;
-        public static final int textView8=0x7f0b001a;
-        public static final int textView9=0x7f0b001b;
-        public static final int textViewMensajeAlarma=0x7f0b0025;
-        public static final int textViewNombreLocalizador=0x7f0b0081;
-        public static final int textViewNumTelLocalizador=0x7f0b005a;
-        public static final int textViewPruebas=0x7f0b0070;
-        public static final int textViewclavenuevo=0x7f0b0083;
-        public static final int textViewcomandosSMS=0x7f0b002b;
-        public static final int textViewconfInicial=0x7f0b002e;
-        public static final int textViewlocalizador=0x7f0b0054;
-        public static final int textViewmarcamodelo=0x7f0b0056;
-        public static final int textViewtitulofecharecarga=0x7f0b0062;
-        public static final int textodepuracion=0x7f0b0018;
-        public static final int textolocalizador=0x7f0b001f;
-        public static final int textomarcamodelo=0x7f0b0050;
-        public static final int txtEmail=0x7f0b0087;
-        public static final int txtPass=0x7f0b0089;
-        public static final int wrap_content=0x7f0b000f;
-        public static final int zoomcontrols=0x7f0b007a;
+        public static final int TextView01=0x7f0b007e;
+        public static final int View01=0x7f0b004d;
+        public static final int action_settings=0x7f0b008b;
+        public static final int adjust_height=0x7f0b0002;
+        public static final int adjust_width=0x7f0b0003;
+        public static final int anterior=0x7f0b0074;
+        public static final int book_now=0x7f0b0011;
+        public static final int botonatras=0x7f0b0058;
+        public static final int botonatrasnuevo=0x7f0b007d;
+        public static final int botonborrar=0x7f0b005f;
+        public static final int botoncambiarfecha=0x7f0b0065;
+        public static final int botoncancelar=0x7f0b005e;
+        public static final int botonguardarclave=0x7f0b005d;
+        public static final int botonguardargasto=0x7f0b0054;
+        public static final int botonguardaridioma=0x7f0b006f;
+        public static final int botonguardarnuevo=0x7f0b0084;
+        public static final int botonmenu=0x7f0b0077;
+        public static final int botonnuevo=0x7f0b005a;
+        public static final int botonsalir=0x7f0b0027;
+        public static final int btnguardarusuario=0x7f0b0089;
+        public static final int buttonGuardarConfAvanzada=0x7f0b002d;
+        public static final int buyButton=0x7f0b000d;
+        public static final int buy_now=0x7f0b0012;
+        public static final int buy_with_google=0x7f0b0013;
+        public static final int classic=0x7f0b0015;
+        public static final int configuraravisos=0x7f0b0066;
+        public static final int donate_with_google=0x7f0b0014;
+        public static final int editTextActivarDeteccionVelocidad=0x7f0b0040;
+        public static final int editTextActivarLimitarSuperficie=0x7f0b004a;
+        public static final int editTextActivarModoEscucharVoz=0x7f0b0045;
+        public static final int editTextActivarMovimiento=0x7f0b0036;
+        public static final int editTextAutorizar=0x7f0b0031;
+        public static final int editTextClaveLocalizadorMultiple=0x7f0b0060;
+        public static final int editTextClaveNuevo=0x7f0b0083;
+        public static final int editTextDesactivarDetectarMovimiento=0x7f0b0038;
+        public static final int editTextDesactivarLimitSuperficie=0x7f0b004c;
+        public static final int editTextDesactivarModoEscucharVoz=0x7f0b0047;
+        public static final int editTextDesautorizar=0x7f0b0033;
+        public static final int editTextNumLocalizador=0x7f0b005c;
+        public static final int editTextNumLocalizadornuevo=0x7f0b007f;
+        public static final int editTextOrdenPosLatitud=0x7f0b004e;
+        public static final int editTextOrdenPosLongitud=0x7f0b004f;
+        public static final int editTextRastreoActivar=0x7f0b003b;
+        public static final int editTextRastreoDesactivar=0x7f0b003d;
+        public static final int editTextconfInicial=0x7f0b0030;
+        public static final int editTextdesactivarexcesovelocidad=0x7f0b0042;
+        public static final int editTextmesescaducidad=0x7f0b0053;
+        public static final int editTextnombrelocalizador=0x7f0b0081;
+        public static final int editTextpvpxsmsloc=0x7f0b0062;
+        public static final int editTextsaldominimo=0x7f0b0052;
+        public static final int editTextsaldoporlocalizador=0x7f0b0061;
+        public static final int editTextseparadorcoordenadas=0x7f0b0050;
+        public static final int fecharecarga=0x7f0b0064;
+        public static final int firstDivideracercade=0x7f0b001d;
+        public static final int firstDivideracercade1=0x7f0b0018;
+        public static final int fotomodelo=0x7f0b0029;
+        public static final int grayscale=0x7f0b0016;
+        public static final int holo_dark=0x7f0b0008;
+        public static final int holo_light=0x7f0b0009;
+        public static final int hybrid=0x7f0b0004;
+        public static final int image3d=0x7f0b0075;
+        public static final int imageViewAgregar=0x7f0b0028;
+        public static final int imagenespanol=0x7f0b006b;
+        public static final int imageningles=0x7f0b006e;
+        public static final int imagenmodelonuevo=0x7f0b0056;
+        public static final int imagenruta=0x7f0b007a;
+        public static final int imagenupdate=0x7f0b0079;
+        public static final int imagenvistasatelite=0x7f0b0076;
+        public static final int itemacercade=0x7f0b00a5;
+        public static final int itemactivarautorastreo=0x7f0b00a0;
+        public static final int itemactivarcortarcorriente=0x7f0b00a3;
+        public static final int itemactivardetectarmovimiento=0x7f0b009a;
+        public static final int itemactivardetectarvelocidad=0x7f0b009d;
+        public static final int itemactivarlimitararea=0x7f0b00ab;
+        public static final int itemajustes=0x7f0b008c;
+        public static final int itemautorastreo=0x7f0b009f;
+        public static final int itemautorizar=0x7f0b0090;
+        public static final int itemconfiguracion=0x7f0b008d;
+        public static final int itemconfiguracion_avanzada=0x7f0b008f;
+        public static final int itemconfiguraciongasto=0x7f0b0094;
+        public static final int itemconfiguracioninicial=0x7f0b008e;
+        public static final int itemcortarcorriente=0x7f0b00a2;
+        public static final int itemdesactivarautorastreo=0x7f0b00a1;
+        public static final int itemdesactivarcortarcorriente=0x7f0b00a4;
+        public static final int itemdesactivardetectarmovimiento=0x7f0b009b;
+        public static final int itemdesactivardetectarvelocidad=0x7f0b009e;
+        public static final int itemdesactivarlimitararea=0x7f0b00ac;
+        public static final int itemdesautorizar=0x7f0b0091;
+        public static final int itemdetectarmovimiento=0x7f0b0099;
+        public static final int itemdetenersos=0x7f0b0095;
+        public static final int itemdondeestoy=0x7f0b00a6;
+        public static final int itemespanol=0x7f0b00af;
+        public static final int itemexcesovelocidad=0x7f0b009c;
+        public static final int itemhistorial=0x7f0b00a7;
+        public static final int itemhistorialentrada=0x7f0b00a8;
+        public static final int itemhistorialenvio=0x7f0b00a9;
+        public static final int itemidiomas=0x7f0b00ae;
+        public static final int itemingles=0x7f0b00b0;
+        public static final int itemlimitararea=0x7f0b00aa;
+        public static final int itemllamar=0x7f0b0098;
+        public static final int itemmodovozoff=0x7f0b0093;
+        public static final int itemmodovozon=0x7f0b0092;
+        public static final int itemnumeroprincipal=0x7f0b0096;
+        public static final int itempreguntarlimitararea=0x7f0b00ad;
+        public static final int itemuserypass=0x7f0b0097;
+        public static final int locseleccionado=0x7f0b0072;
+        public static final int login_error=0x7f0b008a;
+        public static final int mapa=0x7f0b0070;
+        public static final int match_parent=0x7f0b000f;
+        public static final int micubo3d=0x7f0b0025;
+        public static final int monochrome=0x7f0b0017;
+        public static final int none=0x7f0b0000;
+        public static final int normal=0x7f0b0005;
+        public static final int posterior=0x7f0b0073;
+        public static final int production=0x7f0b000a;
+        public static final int quickContactBadge1=0x7f0b001f;
+        public static final int quickContactBadge2=0x7f0b001a;
+        public static final int radioGroup1=0x7f0b0068;
+        public static final int radioenglish=0x7f0b006d;
+        public static final int radiospanish=0x7f0b006a;
+        public static final int sandbox=0x7f0b000b;
+        public static final int satellite=0x7f0b0006;
+        public static final int scrollView1=0x7f0b007b;
+        public static final int selectionDetails=0x7f0b000e;
+        public static final int slide=0x7f0b0001;
+        public static final int smsrestantes=0x7f0b0067;
+        public static final int spinnerDevices=0x7f0b0078;
+        public static final int spinnermarca=0x7f0b007c;
+        public static final int spinnermodelonuevo=0x7f0b0059;
+        public static final int strict_sandbox=0x7f0b000c;
+        public static final int tableRow1=0x7f0b0069;
+        public static final int tableRow2=0x7f0b006c;
+        public static final int terrain=0x7f0b0007;
+        public static final int text1=0x7f0b002a;
+        public static final int text2=0x7f0b002b;
+        public static final int textView1=0x7f0b0085;
+        public static final int textView10=0x7f0b0032;
+        public static final int textView11=0x7f0b0039;
+        public static final int textView12=0x7f0b003a;
+        public static final int textView13=0x7f0b003c;
+        public static final int textView14=0x7f0b0043;
+        public static final int textView15=0x7f0b0048;
+        public static final int textView16=0x7f0b0049;
+        public static final int textView17=0x7f0b004b;
+        public static final int textView18=0x7f0b0044;
+        public static final int textView19=0x7f0b0046;
+        public static final int textView2=0x7f0b0087;
+        public static final int textView20=0x7f0b002e;
+        public static final int textView21=0x7f0b0034;
+        public static final int textView22=0x7f0b0035;
+        public static final int textView23=0x7f0b0037;
+        public static final int textView24=0x7f0b003e;
+        public static final int textView25=0x7f0b003f;
+        public static final int textView26=0x7f0b0041;
+        public static final int textView3=0x7f0b0022;
+        public static final int textView4=0x7f0b0021;
+        public static final int textView5=0x7f0b0023;
+        public static final int textView6=0x7f0b0024;
+        public static final int textView7=0x7f0b001e;
+        public static final int textView8=0x7f0b001b;
+        public static final int textView9=0x7f0b001c;
+        public static final int textViewMensajeAlarma=0x7f0b0026;
+        public static final int textViewNombreLocalizador=0x7f0b0080;
+        public static final int textViewNumTelLocalizador=0x7f0b005b;
+        public static final int textViewPruebas=0x7f0b0071;
+        public static final int textViewclavenuevo=0x7f0b0082;
+        public static final int textViewcomandosSMS=0x7f0b002c;
+        public static final int textViewconfInicial=0x7f0b002f;
+        public static final int textViewlocalizador=0x7f0b0055;
+        public static final int textViewmarcamodelo=0x7f0b0057;
+        public static final int textViewtitulofecharecarga=0x7f0b0063;
+        public static final int textodepuracion=0x7f0b0019;
+        public static final int textolocalizador=0x7f0b0020;
+        public static final int textomarcamodelo=0x7f0b0051;
+        public static final int txtEmail=0x7f0b0086;
+        public static final int txtPass=0x7f0b0088;
+        public static final int wrap_content=0x7f0b0010;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f070000;
@@ -664,11 +674,10 @@ containing a value of this type.
         public static final int idiomasprimeroespanol=0x7f030006;
         public static final int idiomasprimeroingles=0x7f030007;
         public static final int main=0x7f030008;
-        public static final int maininicial=0x7f030009;
-        public static final int micubo3d=0x7f03000a;
-        public static final int nuevolocalizador=0x7f03000b;
-        public static final int presentacion=0x7f03000c;
-        public static final int userypass=0x7f03000d;
+        public static final int micubo3d=0x7f030009;
+        public static final int nuevolocalizador=0x7f03000a;
+        public static final int presentacion=0x7f03000b;
+        public static final int userypass=0x7f03000c;
     }
     public static final class menu {
         public static final int idioma=0x7f0a0000;
@@ -737,7 +746,7 @@ containing a value of this type.
         public static final int cambiarclave=0x7f080036;
         public static final int cambiarfecha=0x7f080037;
         public static final int cambiaridioma=0x7f080038;
-        public static final int cancelar=0x7f080116;
+        public static final int cancelar=0x7f080119;
         public static final int cantidad_respuestas=0x7f080039;
         public static final int clave=0x7f08003a;
         public static final int comandolocalizar=0x7f08003b;
@@ -761,205 +770,208 @@ containing a value of this type.
         public static final int common_google_play_services_notification_needs_installation_title=0x7f08004d;
         public static final int common_google_play_services_notification_needs_update_title=0x7f08004e;
         public static final int common_google_play_services_notification_ticker=0x7f08004f;
-        public static final int common_google_play_services_unknown_issue=0x7f080050;
-        public static final int common_google_play_services_unsupported_text=0x7f080051;
-        public static final int common_google_play_services_unsupported_title=0x7f080052;
-        public static final int common_google_play_services_update_button=0x7f080053;
-        public static final int common_google_play_services_update_text=0x7f080054;
-        public static final int common_google_play_services_update_title=0x7f080055;
-        public static final int common_open_on_phone=0x7f080056;
-        public static final int common_signin_button_text=0x7f080057;
-        public static final int common_signin_button_text_long=0x7f080058;
-        public static final int conexioninternet=0x7f080059;
-        public static final int configinicial=0x7f08005a;
-        public static final int configuracion=0x7f08005b;
-        public static final int configuracion_avanzada=0x7f08005c;
-        public static final int configuracion_inicial=0x7f08005d;
-        public static final int configuracioncorrecta=0x7f08005e;
-        public static final int configuracionenvio=0x7f08005f;
-        public static final int configuraciongasto=0x7f080060;
-        public static final int configuracionguardada=0x7f080061;
-        public static final int configuracioninicial=0x7f080062;
-        public static final int configuracionrecepcion=0x7f080063;
-        public static final int configuraravisos=0x7f080064;
-        public static final int connumero=0x7f080065;
-        public static final int continuar_pregunta=0x7f080066;
-        public static final int contrasenacambiadaok=0x7f080067;
-        public static final int contrasenaincorrecta=0x7f080068;
-        public static final int cortarcorriente=0x7f080069;
-        public static final int crearnuevolocalizador=0x7f08006a;
-        public static final int create_calendar_message=0x7f08006b;
-        public static final int create_calendar_title=0x7f08006c;
-        public static final int cuandoelvehiculosemuevaysupere=0x7f08006d;
-        public static final int datoincorrecto=0x7f08006e;
-        public static final int datorequerido=0x7f08006f;
-        public static final int deberellenarelnombre=0x7f080070;
-        public static final int decline=0x7f080071;
-        public static final int desactivadodetectarmovimiento=0x7f080072;
-        public static final int desactivadolimitarvelocidad=0x7f080073;
-        public static final int desactivar=0x7f080074;
-        public static final int desactivar_autorastreo=0x7f080075;
-        public static final int desactivar_deteccion_exceso_velocidad=0x7f080076;
-        public static final int desactivar_detectar_movimiento=0x7f080077;
-        public static final int desactivar_escuchavoz=0x7f080078;
-        public static final int desactivaralarmaarea=0x7f080079;
-        public static final int desactivaralarmas=0x7f08007a;
-        public static final int desactivarautorastreo=0x7f08007b;
-        public static final int desactivardeteccionmovimiento=0x7f08007c;
-        public static final int desactivarexcesovelocidad=0x7f08007d;
-        public static final int desactivarlimitar=0x7f08007e;
-        public static final int desactivarlimitarvelocidad=0x7f08007f;
-        public static final int desaldoen=0x7f080080;
-        public static final int desautorizarestetelefono=0x7f080081;
-        public static final int desautorizartelefono=0x7f080082;
-        public static final int descripcionmesesdecaducidad=0x7f080083;
-        public static final int descripcionsaldominimo=0x7f080084;
-        public static final int deseacerrar=0x7f080085;
-        public static final int deseacrearnuevolocalizador=0x7f080086;
-        public static final int deseaeliminarpregunta=0x7f080087;
-        public static final int detalledeleventosmsrecibido=0x7f080088;
-        public static final int detalledelsmsenviado=0x7f080089;
-        public static final int deteccion_movimiento=0x7f08008a;
-        public static final int deteccionexcesovelocidad=0x7f08008b;
-        public static final int detectar_exceso_velocidad=0x7f08008c;
-        public static final int detenersos=0x7f08008d;
-        public static final int digitosnumericos=0x7f08008e;
-        public static final int dirip=0x7f08008f;
-        public static final int dondeestoy=0x7f080090;
-        public static final int editar=0x7f080091;
-        public static final int eliminar=0x7f080092;
-        public static final int ellocalizadorsehamovido=0x7f080093;
-        public static final int elnumerodeminutosdebeestar=0x7f080094;
-        public static final int enviar=0x7f080095;
-        public static final int error_guardar_configuracion=0x7f080096;
-        public static final int errorgeneral=0x7f080097;
-        public static final int escucharvozactivado=0x7f080098;
-        public static final int espanol=0x7f080099;
-        public static final int esperandogps=0x7f08009a;
-        public static final int estoyaqui=0x7f08009b;
-        public static final int eventosmsrecibido=0x7f08009c;
-        public static final int fechacaducidad=0x7f08009d;
-        public static final int fechahoradeenvio=0x7f08009e;
-        public static final int fechahoraderecepcion=0x7f08009f;
-        public static final int fecharecarga=0x7f0800a0;
-        public static final int finaliceestallamada=0x7f0800a1;
-        public static final int fueradearea=0x7f0800a2;
-        public static final int gpsdeshabilitado=0x7f0800a3;
-        public static final int guardar=0x7f0800a4;
-        public static final int hanpasadomasde=0x7f0800a5;
-        public static final int hello_world=0x7f0800a6;
-        public static final int historial=0x7f0800a7;
-        public static final int historialenvio=0x7f0800a8;
-        public static final int historialrecepcion=0x7f0800a9;
-        public static final int ilimitados=0x7f0800aa;
-        public static final int importante=0x7f0800ab;
-        public static final int imposibleenviarsms=0x7f0800ac;
-        public static final int imposibleextraercoordenadas=0x7f0800ad;
-        public static final int ingles=0x7f0800ae;
-        public static final int inicializar=0x7f0800af;
-        public static final int introducirnumeroautorizar=0x7f0800b0;
-        public static final int introducirnumerodesautorizar=0x7f0800b1;
-        public static final int introducirnumeroestetelefono=0x7f0800b2;
-        public static final int introduzcalavelocidad=0x7f0800b3;
-        public static final int invalidonumlocalizador=0x7f0800b4;
-        public static final int ippuerto=0x7f0800b5;
-        public static final int latitud=0x7f0800b6;
-        public static final int limitararea=0x7f0800b7;
-        public static final int llamada=0x7f0800b8;
-        public static final int llamarlocalizador=0x7f0800b9;
-        public static final int localizador=0x7f0800ba;
-        public static final int localizadorduplicado=0x7f0800bb;
-        public static final int localizadorfueradearea=0x7f0800bc;
-        public static final int localizar=0x7f0800bd;
-        public static final int localizar_dispositivo=0x7f0800be;
-        public static final int localizar_por_sms=0x7f0800bf;
-        public static final int longitud=0x7f0800c0;
-        public static final int mensaje_Localizar=0x7f0800c1;
-        public static final int mensajealarma=0x7f0800c2;
-        public static final int mensajeentregado=0x7f0800c3;
-        public static final int mensajenoentregado=0x7f0800c4;
-        public static final int mensajesmsaenviar=0x7f0800c5;
-        public static final int mesescaducidad=0x7f0800c6;
-        public static final int mesessinrecargarsaldoenrastreador=0x7f0800c7;
-        public static final int minimocaracterestelefono=0x7f0800c8;
-        public static final int minumero=0x7f0800c9;
-        public static final int modeloincorrecto=0x7f0800ca;
-        public static final int modo_escuchar_voz=0x7f0800cb;
-        public static final int modolocalizadoractivado=0x7f0800cc;
-        public static final int modosaviso=0x7f0800cd;
-        public static final int modovozoff=0x7f0800ce;
-        public static final int modovozon=0x7f0800cf;
-        public static final int modovoztracker=0x7f0800d0;
-        public static final int mostrarlocalizacion=0x7f0800d1;
-        public static final int necesario2sms=0x7f0800d2;
-        public static final int ningunlocalizador=0x7f0800d3;
-        public static final int no=0x7f0800d4;
-        public static final int noenviar=0x7f0800d5;
-        public static final int nohayeventosregistrados=0x7f0800d6;
-        public static final int nombrelocalizador=0x7f0800d7;
-        public static final int num_telefono=0x7f0800d8;
-        public static final int numeroincorrecto=0x7f0800d9;
-        public static final int numeroprincipal=0x7f0800da;
-        public static final int numprincipalcorrecto=0x7f0800db;
-        public static final int ordenposlatitud=0x7f0800dc;
-        public static final int ordenposlongitud=0x7f0800dd;
-        public static final int ponera0endiaindicado=0x7f0800de;
-        public static final int poscarfinlongitud=0x7f0800df;
-        public static final int poscariniciolatitud=0x7f0800e0;
-        public static final int poscariniciolongitud=0x7f0800e1;
-        public static final int posfinlatitud=0x7f0800e2;
-        public static final int preciosmsestemovil=0x7f0800e3;
-        public static final int preciosmslocalizador=0x7f0800e4;
-        public static final int preguntarlimitararea=0x7f0800e5;
-        public static final int puedeserdadodebaja=0x7f0800e6;
-        public static final int puerto=0x7f0800e7;
-        public static final int pulsellamaryrealiceunallamadaperdida=0x7f0800e8;
-        public static final int quedan=0x7f0800e9;
-        public static final int realizarconfinicial=0x7f0800ea;
-        public static final int recarguesaldo=0x7f0800eb;
-        public static final int recarguesaldoen=0x7f0800ec;
-        public static final int recibidode=0x7f0800ed;
-        public static final int recibidosos=0x7f0800ee;
-        public static final int reiniciadaconfiguracion=0x7f0800ef;
-        public static final int resetfabrica=0x7f0800f0;
-        public static final int saldo_localizador=0x7f0800f1;
-        public static final int saldoactual=0x7f0800f2;
-        public static final int saldode=0x7f0800f3;
-        public static final int saldominimoavisar=0x7f0800f4;
-        public static final int salir=0x7f0800f5;
-        public static final int seleccionarlocalizador=0x7f0800f6;
-        public static final int separador_coordenadas=0x7f0800f7;
-        public static final int si=0x7f0800f8;
-        public static final int sincobertura=0x7f0800f9;
-        public static final int smsentregadocorrectamente=0x7f0800fa;
-        public static final int smsenviadoconexito=0x7f0800fb;
-        public static final int smsrecibido=0x7f0800fc;
-        public static final int smsrestantes=0x7f0800fd;
-        public static final int store_picture_message=0x7f0800fe;
-        public static final int store_picture_title=0x7f0800ff;
-        public static final int tarjetasimcaducarapronto=0x7f080100;
-        public static final int telefonodecontrol=0x7f080101;
-        public static final int telefonodesautorizado=0x7f080102;
-        public static final int textodelsms=0x7f080103;
-        public static final int title_activity_idioma=0x7f080104;
-        public static final int title_activity_usery_pass=0x7f080105;
-        public static final int titulo_mensaje_localizar=0x7f080106;
-        public static final int toqueenlapantallacirculo=0x7f080107;
-        public static final int toqueenlapantallacirculo2=0x7f080108;
-        public static final int toqueenlapantallainferiorderecha=0x7f080109;
-        public static final int toqueenlapantallasuperiorizquierda=0x7f08010a;
-        public static final int unavezelvehiculoestefueradelarea=0x7f08010b;
-        public static final int userypass=0x7f08010c;
-        public static final int vacio=0x7f08010d;
-        public static final int valorincorrecto=0x7f080117;
-        public static final int veceslimiteautorastreo=0x7f08010e;
-        public static final int version=0x7f08010f;
-        public static final int wallet_buy_button_place_holder=0x7f080110;
-        public static final int warningway0=0x7f080111;
-        public static final int warningway1=0x7f080112;
-        public static final int warningway2=0x7f080113;
-        public static final int warningway3=0x7f080114;
-        public static final int ypodriaserdadodebaja=0x7f080115;
+        public static final int common_google_play_services_sign_in_failed_text=0x7f080050;
+        public static final int common_google_play_services_sign_in_failed_title=0x7f080051;
+        public static final int common_google_play_services_unknown_issue=0x7f080052;
+        public static final int common_google_play_services_unsupported_text=0x7f080053;
+        public static final int common_google_play_services_unsupported_title=0x7f080054;
+        public static final int common_google_play_services_update_button=0x7f080055;
+        public static final int common_google_play_services_update_text=0x7f080056;
+        public static final int common_google_play_services_update_title=0x7f080057;
+        public static final int common_open_on_phone=0x7f080058;
+        public static final int common_signin_button_text=0x7f080059;
+        public static final int common_signin_button_text_long=0x7f08005a;
+        public static final int commono_google_play_services_api_unavailable_text=0x7f08005b;
+        public static final int conexioninternet=0x7f08005c;
+        public static final int configinicial=0x7f08005d;
+        public static final int configuracion=0x7f08005e;
+        public static final int configuracion_avanzada=0x7f08005f;
+        public static final int configuracion_inicial=0x7f080060;
+        public static final int configuracioncorrecta=0x7f080061;
+        public static final int configuracionenvio=0x7f080062;
+        public static final int configuraciongasto=0x7f080063;
+        public static final int configuracionguardada=0x7f080064;
+        public static final int configuracioninicial=0x7f080065;
+        public static final int configuracionrecepcion=0x7f080066;
+        public static final int configuraravisos=0x7f080067;
+        public static final int connumero=0x7f080068;
+        public static final int continuar_pregunta=0x7f080069;
+        public static final int contrasenacambiadaok=0x7f08006a;
+        public static final int contrasenaincorrecta=0x7f08006b;
+        public static final int cortarcorriente=0x7f08006c;
+        public static final int crearnuevolocalizador=0x7f08006d;
+        public static final int create_calendar_message=0x7f08006e;
+        public static final int create_calendar_title=0x7f08006f;
+        public static final int cuandoelvehiculosemuevaysupere=0x7f080070;
+        public static final int datoincorrecto=0x7f080071;
+        public static final int datorequerido=0x7f080072;
+        public static final int deberellenarelnombre=0x7f080073;
+        public static final int decline=0x7f080074;
+        public static final int desactivadodetectarmovimiento=0x7f080075;
+        public static final int desactivadolimitarvelocidad=0x7f080076;
+        public static final int desactivar=0x7f080077;
+        public static final int desactivar_autorastreo=0x7f080078;
+        public static final int desactivar_deteccion_exceso_velocidad=0x7f080079;
+        public static final int desactivar_detectar_movimiento=0x7f08007a;
+        public static final int desactivar_escuchavoz=0x7f08007b;
+        public static final int desactivaralarmaarea=0x7f08007c;
+        public static final int desactivaralarmas=0x7f08007d;
+        public static final int desactivarautorastreo=0x7f08007e;
+        public static final int desactivardeteccionmovimiento=0x7f08007f;
+        public static final int desactivarexcesovelocidad=0x7f080080;
+        public static final int desactivarlimitar=0x7f080081;
+        public static final int desactivarlimitarvelocidad=0x7f080082;
+        public static final int desaldoen=0x7f080083;
+        public static final int desautorizarestetelefono=0x7f080084;
+        public static final int desautorizartelefono=0x7f080085;
+        public static final int descripcionmesesdecaducidad=0x7f080086;
+        public static final int descripcionsaldominimo=0x7f080087;
+        public static final int deseacerrar=0x7f080088;
+        public static final int deseacrearnuevolocalizador=0x7f080089;
+        public static final int deseaeliminarpregunta=0x7f08008a;
+        public static final int detalledeleventosmsrecibido=0x7f08008b;
+        public static final int detalledelsmsenviado=0x7f08008c;
+        public static final int deteccion_movimiento=0x7f08008d;
+        public static final int deteccionexcesovelocidad=0x7f08008e;
+        public static final int detectar_exceso_velocidad=0x7f08008f;
+        public static final int detenersos=0x7f080090;
+        public static final int digitosnumericos=0x7f080091;
+        public static final int dirip=0x7f080092;
+        public static final int dondeestoy=0x7f080093;
+        public static final int editar=0x7f080094;
+        public static final int eliminar=0x7f080095;
+        public static final int ellocalizadorsehamovido=0x7f080096;
+        public static final int elnumerodeminutosdebeestar=0x7f080097;
+        public static final int enviar=0x7f080098;
+        public static final int error_guardar_configuracion=0x7f080099;
+        public static final int errorgeneral=0x7f08009a;
+        public static final int escucharvozactivado=0x7f08009b;
+        public static final int espanol=0x7f08009c;
+        public static final int esperandogps=0x7f08009d;
+        public static final int estoyaqui=0x7f08009e;
+        public static final int eventosmsrecibido=0x7f08009f;
+        public static final int fechacaducidad=0x7f0800a0;
+        public static final int fechahoradeenvio=0x7f0800a1;
+        public static final int fechahoraderecepcion=0x7f0800a2;
+        public static final int fecharecarga=0x7f0800a3;
+        public static final int finaliceestallamada=0x7f0800a4;
+        public static final int fueradearea=0x7f0800a5;
+        public static final int gpsdeshabilitado=0x7f0800a6;
+        public static final int guardar=0x7f0800a7;
+        public static final int hanpasadomasde=0x7f0800a8;
+        public static final int hello_world=0x7f0800a9;
+        public static final int historial=0x7f0800aa;
+        public static final int historialenvio=0x7f0800ab;
+        public static final int historialrecepcion=0x7f0800ac;
+        public static final int ilimitados=0x7f0800ad;
+        public static final int importante=0x7f0800ae;
+        public static final int imposibleenviarsms=0x7f0800af;
+        public static final int imposibleextraercoordenadas=0x7f0800b0;
+        public static final int ingles=0x7f0800b1;
+        public static final int inicializar=0x7f0800b2;
+        public static final int introducirnumeroautorizar=0x7f0800b3;
+        public static final int introducirnumerodesautorizar=0x7f0800b4;
+        public static final int introducirnumeroestetelefono=0x7f0800b5;
+        public static final int introduzcalavelocidad=0x7f0800b6;
+        public static final int invalidonumlocalizador=0x7f0800b7;
+        public static final int ippuerto=0x7f0800b8;
+        public static final int latitud=0x7f0800b9;
+        public static final int limitararea=0x7f0800ba;
+        public static final int llamada=0x7f0800bb;
+        public static final int llamarlocalizador=0x7f0800bc;
+        public static final int localizador=0x7f0800bd;
+        public static final int localizadorduplicado=0x7f0800be;
+        public static final int localizadorfueradearea=0x7f0800bf;
+        public static final int localizar=0x7f0800c0;
+        public static final int localizar_dispositivo=0x7f0800c1;
+        public static final int localizar_por_sms=0x7f0800c2;
+        public static final int longitud=0x7f0800c3;
+        public static final int mensaje_Localizar=0x7f0800c4;
+        public static final int mensajealarma=0x7f0800c5;
+        public static final int mensajeentregado=0x7f0800c6;
+        public static final int mensajenoentregado=0x7f0800c7;
+        public static final int mensajesmsaenviar=0x7f0800c8;
+        public static final int mesescaducidad=0x7f0800c9;
+        public static final int mesessinrecargarsaldoenrastreador=0x7f0800ca;
+        public static final int minimocaracterestelefono=0x7f0800cb;
+        public static final int minumero=0x7f0800cc;
+        public static final int modeloincorrecto=0x7f0800cd;
+        public static final int modo_escuchar_voz=0x7f0800ce;
+        public static final int modolocalizadoractivado=0x7f0800cf;
+        public static final int modosaviso=0x7f0800d0;
+        public static final int modovozoff=0x7f0800d1;
+        public static final int modovozon=0x7f0800d2;
+        public static final int modovoztracker=0x7f0800d3;
+        public static final int mostrarlocalizacion=0x7f0800d4;
+        public static final int necesario2sms=0x7f0800d5;
+        public static final int ningunlocalizador=0x7f0800d6;
+        public static final int no=0x7f0800d7;
+        public static final int noenviar=0x7f0800d8;
+        public static final int nohayeventosregistrados=0x7f0800d9;
+        public static final int nombrelocalizador=0x7f0800da;
+        public static final int num_telefono=0x7f0800db;
+        public static final int numeroincorrecto=0x7f0800dc;
+        public static final int numeroprincipal=0x7f0800dd;
+        public static final int numprincipalcorrecto=0x7f0800de;
+        public static final int ordenposlatitud=0x7f0800df;
+        public static final int ordenposlongitud=0x7f0800e0;
+        public static final int ponera0endiaindicado=0x7f0800e1;
+        public static final int poscarfinlongitud=0x7f0800e2;
+        public static final int poscariniciolatitud=0x7f0800e3;
+        public static final int poscariniciolongitud=0x7f0800e4;
+        public static final int posfinlatitud=0x7f0800e5;
+        public static final int preciosmsestemovil=0x7f0800e6;
+        public static final int preciosmslocalizador=0x7f0800e7;
+        public static final int preguntarlimitararea=0x7f0800e8;
+        public static final int puedeserdadodebaja=0x7f0800e9;
+        public static final int puerto=0x7f0800ea;
+        public static final int pulsellamaryrealiceunallamadaperdida=0x7f0800eb;
+        public static final int quedan=0x7f0800ec;
+        public static final int realizarconfinicial=0x7f0800ed;
+        public static final int recarguesaldo=0x7f0800ee;
+        public static final int recarguesaldoen=0x7f0800ef;
+        public static final int recibidode=0x7f0800f0;
+        public static final int recibidosos=0x7f0800f1;
+        public static final int reiniciadaconfiguracion=0x7f0800f2;
+        public static final int resetfabrica=0x7f0800f3;
+        public static final int saldo_localizador=0x7f0800f4;
+        public static final int saldoactual=0x7f0800f5;
+        public static final int saldode=0x7f0800f6;
+        public static final int saldominimoavisar=0x7f0800f7;
+        public static final int salir=0x7f0800f8;
+        public static final int seleccionarlocalizador=0x7f0800f9;
+        public static final int separador_coordenadas=0x7f0800fa;
+        public static final int si=0x7f0800fb;
+        public static final int sincobertura=0x7f0800fc;
+        public static final int smsentregadocorrectamente=0x7f0800fd;
+        public static final int smsenviadoconexito=0x7f0800fe;
+        public static final int smsrecibido=0x7f0800ff;
+        public static final int smsrestantes=0x7f080100;
+        public static final int store_picture_message=0x7f080101;
+        public static final int store_picture_title=0x7f080102;
+        public static final int tarjetasimcaducarapronto=0x7f080103;
+        public static final int telefonodecontrol=0x7f080104;
+        public static final int telefonodesautorizado=0x7f080105;
+        public static final int textodelsms=0x7f080106;
+        public static final int title_activity_idioma=0x7f080107;
+        public static final int title_activity_usery_pass=0x7f080108;
+        public static final int titulo_mensaje_localizar=0x7f080109;
+        public static final int toqueenlapantallacirculo=0x7f08010a;
+        public static final int toqueenlapantallacirculo2=0x7f08010b;
+        public static final int toqueenlapantallainferiorderecha=0x7f08010c;
+        public static final int toqueenlapantallasuperiorizquierda=0x7f08010d;
+        public static final int unavezelvehiculoestefueradelarea=0x7f08010e;
+        public static final int userypass=0x7f08010f;
+        public static final int vacio=0x7f080110;
+        public static final int valorincorrecto=0x7f08011a;
+        public static final int veceslimiteautorastreo=0x7f080111;
+        public static final int version=0x7f080112;
+        public static final int wallet_buy_button_place_holder=0x7f080113;
+        public static final int warningway0=0x7f080114;
+        public static final int warningway1=0x7f080115;
+        public static final int warningway2=0x7f080116;
+        public static final int warningway3=0x7f080117;
+        public static final int ypodriaserdadodebaja=0x7f080118;
     }
     public static final class style {
         public static final int Theme_IAPTheme=0x7f090000;
@@ -1028,6 +1040,36 @@ containing a value of this type.
           @attr name com.vicherarr.localizadorgsm:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
+        /** Attributes that can be used with a CustomWalletTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.vicherarr.localizadorgsm:windowTransitionStyle}</code></td><td></td></tr>
+           </table>
+           @see #CustomWalletTheme_windowTransitionStyle
+         */
+        public static final int[] CustomWalletTheme = {
+            0x7f010003
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.vicherarr.localizadorgsm.R.attr#windowTransitionStyle}
+          attribute's value can be found in the {@link #CustomWalletTheme} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>slide</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.vicherarr.localizadorgsm:windowTransitionStyle
+        */
+        public static final int CustomWalletTheme_windowTransitionStyle = 0;
         /** Attributes that can be used with a LoadingImageView.
            <p>Includes the following attributes:</p>
            <table>
@@ -1043,7 +1085,7 @@ containing a value of this type.
            @see #LoadingImageView_imageAspectRatioAdjust
          */
         public static final int[] LoadingImageView = {
-            0x7f010003, 0x7f010004, 0x7f010005
+            0x7f010004, 0x7f010005, 0x7f010006
         };
         /**
           <p>This symbol is the offset where the {@link com.vicherarr.localizadorgsm.R.attr#circleCrop}
@@ -1132,10 +1174,10 @@ containing a value of this type.
            @see #MapAttrs_zOrderOnTop
          */
         public static final int[] MapAttrs = {
-            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009,
-            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
-            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
-            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
+            0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012,
+            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016
         };
         /**
           <p>This symbol is the offset where the {@link com.vicherarr.localizadorgsm.R.attr#cameraBearing}
@@ -1384,7 +1426,7 @@ containing a value of this type.
            @see #WalletFragmentOptions_fragmentStyle
          */
         public static final int[] WalletFragmentOptions = {
-            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019
+            0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a
         };
         /**
           <p>This symbol is the offset where the {@link com.vicherarr.localizadorgsm.R.attr#appTheme}
@@ -1479,9 +1521,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #WalletFragmentStyle_maskedWalletDetailsTextAppearance
          */
         public static final int[] WalletFragmentStyle = {
-            0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d,
-            0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021,
-            0x7f010022, 0x7f010023, 0x7f010024
+            0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e,
+            0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022,
+            0x7f010023, 0x7f010024, 0x7f010025
         };
         /**
           <p>This symbol is the offset where the {@link com.vicherarr.localizadorgsm.R.attr#buyButtonAppearance}
